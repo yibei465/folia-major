@@ -1,5 +1,5 @@
 {
-  "name": "Folia",
-  "description": "A local music player that syncs with Netease Cloud Music lyrics, featuring AI-powered visual themes and kinetic typography effects.",
+  "name": "碎碎念电台",
+  "description": "以北的自托管音乐站，主打全屏歌词动画，支持网易云、QQ 音乐、酷狗与本地音乐。",
   "requestFramePermissions": []
 }

@@ -531,8 +531,8 @@ export default {
     "closeToQuit": "Đóng cửa sổ sẽ thoát ứng dụng",
     "wallpaperModeOn": "Đã bật chế độ hình nền",
     "wallpaperModeOff": "Đã tắt chế độ hình nền",
-    "macWallpaperInputMonitoringNeeded": "Chế độ hình nền cần quyền Giám sát đầu vào: cấp quyền cho Folia trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Giám sát đầu vào, rồi bật lại chế độ hình nền",
-    "macWallpaperAccessibilitySuggested": "Khi bật Stage Manager, nhấp chuột vào hình nền cũng được tính là nhấp vào desktop và dời các cửa sổ của bạn sang bên. Hãy cấp quyền cho Folia trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Trợ năng, sau đó khởi động lại Folia để ngăn chặn điều đó; các biểu tượng trên màn hình nền vẫn có thể nhấp được",
+    "macWallpaperInputMonitoringNeeded": "Chế độ hình nền cần quyền Giám sát đầu vào: cấp quyền cho 碎碎念电台 trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Giám sát đầu vào, rồi bật lại chế độ hình nền",
+    "macWallpaperAccessibilitySuggested": "Khi bật Stage Manager, nhấp chuột vào hình nền cũng được tính là nhấp vào desktop và dời các cửa sổ của bạn sang bên. Hãy cấp quyền cho 碎碎念电台 trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Trợ năng, sau đó khởi động lại 碎碎念电台 để ngăn chặn điều đó; các biểu tượng trên màn hình nền vẫn có thể nhấp được",
     "macWallpaperAutohideDockOn": "Đã bật tự động ẩn Dock",
     "macWallpaperAutohideDockOff": "Đã tắt tự động ẩn Dock",
     "voiceInputPauseOn": "Đã bật tạm dừng khi nhập giọng nói",
@@ -548,7 +548,7 @@ export default {
     "autoPlayOnLaunchOn": "Tự động phát tiếp khi khởi động",
     "autoPlayOnLaunchOff": "Khôi phục bài trước và tạm dừng khi khởi động",
     "openHomeOnLaunch": "Mặc định mở trang chủ khi khởi động",
-    "gpuPreferenceChanged": "Đã đổi GPU kết xuất đồ họa; vui lòng khởi động lại Folia để áp dụng",
+    "gpuPreferenceChanged": "Đã đổi GPU kết xuất đồ họa; vui lòng khởi động lại 碎碎念电台 để áp dụng",
     "backgroundThrottlingOn": "Đã bật tiết kiệm tài nguyên chạy ngầm",
     "backgroundThrottlingOff": "Đã tắt tiết kiệm tài nguyên chạy ngầm",
     "visualizerSwitched": "Đã chuyển sang hiệu ứng thị giác {{mode}}",
@@ -597,7 +597,7 @@ export default {
     "mainWindowTitlebarAlwaysShown": "Nút điều khiển cửa sổ chính luôn hiển thị",
     "mainWindowTitlebarAutoHidden": "Nút điều khiển cửa sổ chính chỉ hiện khi di chuột",
     "playerHeaderBlurOn": "Đã bật nền mờ cho thanh đầu trình phát",
-    "restartToApplyWindowChrome": "Kiểu nút cửa sổ áp dụng sau khi khởi động lại Folia",
+    "restartToApplyWindowChrome": "Kiểu nút cửa sổ áp dụng sau khi khởi động lại 碎碎念电台",
     "playerHeaderBlurOff": "Đã tắt nền mờ cho thanh đầu trình phát",
     "cursorAutoHideOn": "Con trỏ chuột sẽ ẩn cùng thanh điều khiển",
     "cursorAutoHideOff": "Con trỏ chuột luôn hiển thị khi thanh điều khiển ẩn",
@@ -687,9 +687,9 @@ export default {
     "providerLibraryUnavailable": "{{provider}} không cung cấp thư viện danh sách phát.",
     "songUnavailable": "Bài hát đã bị gỡ",
     "externalPlayerMovedOn": "Trình phát đã chuyển sang bài khác; đã tạm dừng",
-    "externalVideoExportUnavailable": "Bài hát này phát trong trình phát riêng của nền tảng và âm thanh không đi qua Folia, nên không thể xuất video.",
+    "externalVideoExportUnavailable": "Bài hát này phát trong trình phát riêng của nền tảng và âm thanh không đi qua 碎碎念电台, nên không thể xuất video.",
     "externalBypassTitle": "Bài hát này phát trong trình phát riêng của nền tảng",
-    "externalBypassBody": "Âm thanh không đi qua Folia, nên bộ cân bằng và hiệu ứng ở đây không thay đổi những gì bạn nghe. Thiết lập vẫn được giữ và áp dụng cho các bài khác như bình thường.",
+    "externalBypassBody": "Âm thanh không đi qua 碎碎念电台, nên bộ cân bằng và hiệu ứng ở đây không thay đổi những gì bạn nghe. Thiết lập vẫn được giữ và áp dụng cho các bài khác như bình thường.",
     "externalReplayGainBypassed": "Phát trong trình phát riêng của nền tảng; không áp dụng ReplayGain",
     "songUnavailableAlternativeTitle": "Có phiên bản thay thế",
     "songUnavailableAlternativeDescription": "\"{{song}}\" không khả dụng. {{typeDesc}}. Phát phiên bản thay thế?",
@@ -933,8 +933,8 @@ export default {
       "settings-local-lyric-format-order": { "title": "Độ ưu tiên định dạng tệp lời nội bộ", "description": "Chọn định dạng ưu tiên khi bài hát có nhiều tệp lời" },
       "settings-integration": { "title": "Cài đặt tích hợp", "description": "Mở cài đặt Stage, Đang phát và Navidrome" },
       "automix-toggle": { "title": "Chuyển tiếp thông minh", "description": "Bật hoặc tắt chuyển tiếp thông minh FOLIA" },
-      "transition-mode-crossfade": { "title": "Chế độ chuyển tiếp: Folia Crossfade", "description": "Dùng hiệu ứng chuyển mờ đơn giản ra/vào" },
-      "transition-mode-automix": { "title": "Chế độ chuyển tiếp: Folia Automix", "description": "Phân tích cả hai bài và tự động phối trộn" },
+      "transition-mode-crossfade": { "title": "Chế độ chuyển tiếp: 碎碎念电台 Crossfade", "description": "Dùng hiệu ứng chuyển mờ đơn giản ra/vào" },
+      "transition-mode-automix": { "title": "Chế độ chuyển tiếp: 碎碎念电台 Automix", "description": "Phân tích cả hai bài và tự động phối trộn" },
       "transition-performance-toggle": { "title": "Chế độ hiệu ứng chuyển tiếp", "description": "Bật/tắt chuyển tiếp táo bạo hơn (cần mô hình tách stem)" },
       "settings-discord-presence": { "title": "Trạng thái phát Discord", "description": "Mở cài đặt Discord Rich Presence" },
       "lyric-staff-policy-cycle": { "title": "Xử lý thông tin sản xuất (Credits)", "description": "Chuyển đổi cách xử lý khối thông tin sản xuất (Credits) ở đầu bài" },
@@ -948,7 +948,7 @@ export default {
       "settings-r2-sync": { "title": "Cài đặt máy chủ đồng bộ", "description": "Mở cài đặt máy chủ đồng bộ" },
       "sync-now": { "title": "Đồng bộ ngay", "description": "Đồng bộ chủ đề AI" },
       "export-lyric-cache": { "title": "Xuất bộ nhớ đệm lời bài hát", "description": "Lưu toàn bộ lời bài hát trên máy vào tệp zip chứa định dạng .fia và LRC nâng cao" },
-      "export-current-lyrics-fia": { "title": "Xuất lời bài hát hiện tại dạng .fia", "description": "Lưu lời bài hát ở định dạng không suy hao của Folia, bao gồm cả phân tách từ" },
+      "export-current-lyrics-fia": { "title": "Xuất lời bài hát hiện tại dạng .fia", "description": "Lưu lời bài hát ở định dạng không suy hao của 碎碎念电台, bao gồm cả phân tách từ" },
       "export-current-lyrics-lrc": { "title": "Xuất lời bài hát hiện tại dạng LRC", "description": "Lưu lời bài hát dạng LRC nâng cao tương thích với các trình phát khác" },
       "settings-local-library-watch": { "title": "Cài đặt theo dõi thư mục nội bộ", "description": "Mở cài đặt tự động quét thư mục nội bộ đã nhập" },
       "local-library-auto-scan-toggle": { "title": "Tự động quét thư mục nội bộ", "description": "Bật hoặc tắt tự động quét lại thư mục nội bộ đã nhập" },
@@ -957,7 +957,7 @@ export default {
       "settings-update-channel": { "title": "Kênh cập nhật", "description": "Chọn kênh phát hành ứng dụng desktop" },
       "desktop-toggle-voice-input-pause": { "title": "Tạm dừng khi nhập giọng nói", "description": "Bật/tắt tự động tạm dừng phát khi nhập bằng giọng nói" },
       "desktop-toggle-prevent-display-sleep": { "title": "Ngăn màn hình ngủ khi đang phát", "description": "Giữ màn hình luôn sáng khi đang phát nhạc" },
-      "desktop-toggle-background-throttling": { "title": "Tiết kiệm tài nguyên chạy ngầm", "description": "Bật/tắt giảm tốc độ kết xuất và giữ hoạt cảnh lời bài hát khi Folia thu nhỏ hoặc ẩn" },
+      "desktop-toggle-background-throttling": { "title": "Tiết kiệm tài nguyên chạy ngầm", "description": "Bật/tắt giảm tốc độ kết xuất và giữ hoạt cảnh lời bài hát khi 碎碎念电台 thu nhỏ hoặc ẩn" },
       "settings-graphics": { "title": "Cài đặt đồ họa", "description": "Mở chế độ tĩnh, giới hạn khung hình, sửa lỗi phát sáng Linux và giảm chuyển động" },
       "settings-gpu-preference": { "title": "Cài đặt GPU kết xuất", "description": "Đi tới tùy chọn chọn card đồ họa ứng dụng sử dụng để kết xuất" },
       "gpu-preference-auto": { "title": "GPU kết xuất: Tự động", "description": "Để Windows tự chọn card đồ họa; áp dụng sau khi khởi động lại" },
@@ -1082,9 +1082,9 @@ export default {
       "hifi-settings": { "title": "Cài đặt công cụ phát", "description": "Mở cài đặt công cụ phát: Web Audio hoặc mpv, cùng thiết bị đầu ra, chế độ độc quyền và DSD của mpv" },
       "hifi-exclusive-toggle": { "title": "Chế độ độc quyền HiFi", "description": "Bật hoặc tắt việc HiFi chiếm riêng thiết bị đầu ra để bộ trộn âm hệ thống không can thiệp" },
       "hifi-navidrome-toggle": { "title": "Phát Navidrome qua HiFi", "description": "Bật hoặc tắt việc phát bài hát Navidrome qua HiFi, dùng tệp gốc không chuyển mã" },
-      "hifi-software-volume-toggle": { "title": "Âm lượng phần mềm HiFi", "description": "Bật hoặc tắt việc để thanh âm lượng của Folia điều chỉnh âm lượng mpv; khi bật sẽ không còn bit-perfect" },
+      "hifi-software-volume-toggle": { "title": "Âm lượng phần mềm HiFi", "description": "Bật hoặc tắt việc để thanh âm lượng của 碎碎念电台 điều chỉnh âm lượng mpv; khi bật sẽ không còn bit-perfect" },
       "hifi-redetect-mpv": { "title": "Dò lại mpv", "description": "Tìm lại mpv cho HiFi, ví dụ sau khi cài đặt hoặc cập nhật mpv" },
-      "hifi-download-mpv": { "title": "Tải xuống hoặc cập nhật mpv", "description": "Tải bản mpv được khuyên dùng cho HiFi, hoặc cập nhật bản mpv mà Folia đã tải; tiến trình hiển thị trong cài đặt công cụ phát" },
+      "hifi-download-mpv": { "title": "Tải xuống hoặc cập nhật mpv", "description": "Tải bản mpv được khuyên dùng cho HiFi, hoặc cập nhật bản mpv mà 碎碎念电台 đã tải; tiến trình hiển thị trong cài đặt công cụ phát" },
       "hifi-signal-path": { "title": "Đường tín hiệu HiFi", "description": "Xem bài hát hiện tại đi đến DAC của bạn như thế nào và có giữ được bit-perfect hay không" },
       "settings-transition": { "title": "Chuyển bài thông minh", "description": "Đi tới cài đặt chuyển bài FOLIA" },
       "settings-navidrome": { "title": "Máy chủ Navidrome", "description": "Đi tới kết nối máy chủ Navidrome" },
@@ -1395,10 +1395,10 @@ export default {
     "scopeOnlineDesc": "Lời bài hát lưu trong bộ nhớ đệm từ các bài trực tuyến đã phát",
     "scopeLocal": "Thư viện nội bộ",
     "scopeLocalDesc": "Lời bài hát trực tuyến khớp với bài nội bộ, đặt tên theo tệp âm thanh trong thư mục gốc, có thể đặt ngay cạnh tệp nhạc",
-    "formatFia": ".fia (Folia, lossless)",
-    "formatFiaDesc": "Giữ nguyên khớp từng từ, bản dịch, giọng bè và phân đoạn đã lưu; có thể nhập thẳng lại vào Folia",
+    "formatFia": ".fia (碎碎念电台, lossless)",
+    "formatFiaDesc": "Giữ nguyên khớp từng từ, bản dịch, giọng bè và phân đoạn đã lưu; có thể nhập thẳng lại vào 碎碎念电台",
     "formatLrc": "LRC nâng cao",
-    "formatLrcDesc": "Trình phát khác có thể đọc; các dữ liệu riêng của Folia như giọng bè và phân đoạn sẽ bị lược bỏ",
+    "formatLrcDesc": "Trình phát khác có thể đọc; các dữ liệu riêng của 碎碎念电台 như giọng bè và phân đoạn sẽ bị lược bỏ",
     "includeTranslationDesc": "Ghi vào dòng tiếp theo với cùng mốc thời gian của bản gốc",
     "includeRomanizationDesc": "Ghi sau dòng dịch",
     "resolveOnline": "Tìm tên bài còn thiếu trực tuyến",
@@ -1428,7 +1428,7 @@ export default {
     "descriptionExportOnly": "Lưu lời bài hát đang hiển thị của bài này thành tệp.",
     "importHeading": "Nhập",
     "importChoose": "Chọn tệp lời bài hát",
-    "importFormats": "lrc, vtt, ttml, qrc, yrc, krc, txt hoặc tệp .fia xuất từ Folia",
+    "importFormats": "lrc, vtt, ttml, qrc, yrc, krc, txt hoặc tệp .fia xuất từ 碎碎念电台",
     "exportHeading": "Xuất bài hát này",
     "batchTitle": "Xuất toàn bộ lời trên thiết bị",
     "batchDesc": "Mở trình xuất hàng loạt trong bảng lệnh"
@@ -1472,13 +1472,13 @@ export default {
     "market": "Kho mod",
     "trustRevoked": "Tệp của mod này đã thay đổi kể từ lần xác nhận trước nên đã tự động tắt. Hãy kiểm tra nguồn rồi bật lại.",
     "devSourceHint": "Mod nguồn phát triển: sau khi xác nhận, chỉnh sửa tệp vẫn giữ nguyên quyền phê duyệt (chỉ dành cho bản dựng phát triển).",
-    "platformReadHint": "Có thể đọc dữ liệu trên {{platforms}} bằng tài khoản bạn đã đăng nhập Folia, chẳng hạn như lịch sử nghe (giao diện thử nghiệm platform.raw).",
+    "platformReadHint": "Có thể đọc dữ liệu trên {{platforms}} bằng tài khoản bạn đã đăng nhập 碎碎念电台, chẳng hạn như lịch sử nghe (giao diện thử nghiệm platform.raw).",
     "platformWriteHint": "Cũng có thể thay đổi dữ liệu trong tài khoản {{platforms}} của bạn, chẳng hạn như lượt thích, danh sách phát và lượt theo dõi.",
     "queueReplaced": "“{{name}}” đã thay thế hàng đợi phát",
     "queueReplaceUndo": "Hoàn tác",
     "queueReplaceUndone": "Đã khôi phục hàng đợi phát từ trước khi thay thế",
     "queueReplaceUndoGone": "Hàng đợi đã thay đổi kể từ khi bị thay thế, không còn gì để hoàn tác",
-    "queueReplaceHint": "Có thể thay thế toàn bộ hàng đợi phát cùng lúc và kết thúc FM cá nhân; Folia sẽ thông báo mod nào đã thực hiện và bạn có thể hoàn tác cho đến khi hàng đợi thay đổi.",
+    "queueReplaceHint": "Có thể thay thế toàn bộ hàng đợi phát cùng lúc và kết thúc FM cá nhân; 碎碎念电台 sẽ thông báo mod nào đã thực hiện và bạn có thể hoàn tác cho đến khi hàng đợi thay đổi.",
     "equalizerControlHint": "Thay đổi cài đặt âm thanh của bạn: có thể đổi cấu hình âm thanh sẵn có hoặc áp dụng đường cong bộ cân bằng riêng.",
     "renderQualityHint": "Thay đổi chất lượng kết xuất khung lời bài hát: có thể thay đổi độ phân giải và khử răng cưa của khung lời bài hát trong Hiệu năng & Hoạt họa.",
     "visualizerModeHint": "Chuyển kiểu hoạt họa lời bài hát của bạn, như khi bạn đổi trong bảng phát nhạc.",
@@ -1547,8 +1547,8 @@ export default {
     "faultNoticeOpen": "Xem chi tiết",
     "faultNoticeMute": "Không nhắc lỗi hay khởi động chậm nữa",
     "faultNoticeSwitch": "Nhắc tôi khi mod này gặp lỗi hoặc khởi động chậm",
-    "skippedThisRun": "Lần này không khởi động. Mod sẽ khởi động bình thường vào lần mở Folia tiếp theo.",
-    "startSkippedBanner": "Lần này không có mod nào khởi động. Các mod sẽ khởi động bình thường vào lần mở Folia tiếp theo.",
+    "skippedThisRun": "Lần này không khởi động. Mod sẽ khởi động bình thường vào lần mở 碎碎念电台 tiếp theo.",
+    "startSkippedBanner": "Lần này không có mod nào khởi động. Các mod sẽ khởi động bình thường vào lần mở 碎碎念电台 tiếp theo.",
     "cost": {
       "title": "Thời gian tiêu tốn",
       "start": "Khởi động mất {{seconds}} giây",
@@ -1564,7 +1564,7 @@ export default {
       "noFailures": "Không có lỗi",
       "main": "Phần chạy nền: tổng cộng {{total}} ms, lần gọi lâu nhất {{longest}} ms",
       "slow": "Chậm",
-      "slowHint": "Mod này khởi động chậm hoặc tiêu tốn nhiều thời gian khi chạy. Folia sẽ không tắt nó vì lý do này."
+      "slowHint": "Mod này khởi động chậm hoặc tiêu tốn nhiều thời gian khi chạy. 碎碎念电台 sẽ không tắt nó vì lý do này."
     },
     "commandUnavailable": "Lệnh mod này không còn khả dụng.",
     "cancelExport": "Hủy",
@@ -1598,7 +1598,7 @@ export default {
       "install-too-many-files": "Gói mod có quá nhiều tệp (tối đa 2000 tệp)",
       "install-main-missing": "Gói mod thiếu tệp main khai báo trong mod.json",
       "install-client-missing": "Gói mod thiếu tệp client khai báo trong mod.json",
-      "host-version-mismatch": "Mod này dùng API nội bộ và không hỗ trợ phiên bản Folia này",
+      "host-version-mismatch": "Mod này dùng API nội bộ và không hỗ trợ phiên bản 碎碎念电台 này",
       "enable-failed": "Không thể bật mod: {{value}}",
       "mod-not-found": "Không tìm thấy mod",
       "mod-content-unverifiable": "Không thể xác minh tệp của mod (quá nhiều hoặc quá lớn), sẽ không kích hoạt",
@@ -1857,7 +1857,7 @@ export default {
     "mutationUnsupported": "{{provider}} không hỗ trợ thao tác này với bài hát này",
     "withReason": "{{action}}: {{reason}}",
     "noteCheckNetwork": "Vui lòng kiểm tra kết nối mạng",
-    "noteRestartApp": "Vui lòng khởi động lại Folia",
+    "noteRestartApp": "Vui lòng khởi động lại 碎碎念电台",
     "noteRetryLater": "Vui lòng thử lại sau",
     "noteSignIn": "Vui lòng đăng nhập lại",
     "noteUnknown": "Lỗi không xác định",
@@ -1871,7 +1871,7 @@ export default {
     "openSetup": "Thiết lập phát nhạc"
   },
   "home": {
-    "welcome": "Chào mừng đến với Folia",
+    "welcome": "Chào mừng đến với 碎碎念电台",
     "lattice": "Lattice",
     "latticeLabel": "Lattice",
     "latticeExplore": "Ghép hình khám phá",
@@ -1933,7 +1933,7 @@ export default {
     "loginCaseSpotifyDenied": "Vui lòng chọn “Đồng ý” trên trang Spotify",
     "loginCaseSpotifyPort": "Cổng 5588 đã bị chiếm dụng",
     "loginCaseYtmUnfinished": "Vui lòng đăng nhập trước khi đóng trình duyệt",
-    "loginCaseQqRestart": "Vui lòng khởi động lại Folia rồi thử lại",
+    "loginCaseQqRestart": "Vui lòng khởi động lại 碎碎念电台 rồi thử lại",
     "loginCaseQqWrongScanApp": "Nếu dùng ứng dụng QQ Music để quét, vui lòng đổi sang «Quét mã bằng ứng dụng QQ Music»; hoặc dùng ứng dụng QQ di động để quét mã này",
     "loginCaseQqWrongScanAppMobileOnly": "Phương thức quét mã QQ ở đây chỉ hỗ trợ QQ di động: vui lòng dùng ứng dụng QQ trên điện thoại để quét mã này",
     "loginCaseQqDeviceLimit": "Vui lòng mở ứng dụng QQ Music, vào «Cài đặt», cuộn xuống dưới cùng chọn «Quản lý thiết bị» và gỡ bỏ các thiết bị không còn dùng, sau đó quét mã lại",
@@ -1965,13 +1965,13 @@ export default {
     "restartingBackend": "Đang khởi động lại…",
     "retryQr": "Làm mới mã QR",
     "qrTipsTitle": "Gợi ý khắc phục",
-    "qrTipRestart": "Khởi động lại Folia rồi quét lại.",
-    "qrTipSwitchNetwork": "Đổi mạng khác (như điểm phát sóng di động) rồi khởi động lại Folia.",
+    "qrTipRestart": "Khởi động lại 碎碎念电台 rồi quét lại.",
+    "qrTipSwitchNetwork": "Đổi mạng khác (như điểm phát sóng di động) rồi khởi động lại 碎碎念电台.",
     "qrDeviceLimit": "Tài khoản QQ Music này đã đạt giới hạn thiết bị đăng nhập, cần xóa bớt thiết bị cũ trước.",
     "qrDeviceLimitTipsTitle": "Xóa bớt thiết bị đã đăng nhập trước",
     "qrDeviceLimitTipRemove": "Mở ứng dụng chính thức QQ Music, vào Cài đặt → Quản lý thiết bị (ở cuối trang Cài đặt) và xóa thiết bị bạn không còn sử dụng.",
     "qrDeviceLimitTipQuota": "QQ Music giới hạn số thiết bị đăng nhập đồng thời: tài khoản miễn phí 1 thiết bị, Green Diamond 3 thiết bị, Super VIP 5 thiết bị.",
-    "qrDeviceLimitTipRescan": "Sau đó quay lại Folia và quét mã đăng nhập lại.",
+    "qrDeviceLimitTipRescan": "Sau đó quay lại 碎碎念电台 và quét mã đăng nhập lại.",
     "qrDiagnosticsToggle": "Vẫn không được? Gửi thông tin chẩn đoán",
     "qrDiagnosticsToggleElsewhere": "Vẫn không được? Xem thông tin chẩn đoán",
     "qrDiagnosticsPrompt": "Sao chép thông tin chẩn đoán gửi cho chúng tôi để hỗ trợ tìm nguyên nhân.",
@@ -1979,20 +1979,20 @@ export default {
     "qrDiagnosticsDisclosure": "Thông tin chẩn đoán gồm: phiên bản ứng dụng và hệ thống, card mạng và IP, cài đặt proxy, nhật ký yêu cầu đăng nhập kèm lỗi gốc và kết quả kiểm tra mạng. Không chứa mật khẩu, cookie hay token.",
     "qrDiagnosticsCopy": "Sao chép chẩn đoán",
     "qrDiagnosticsReport": "Báo cáo trên GitHub",
-    "qrDiagnosticsPasteHint": "Dán thông tin chẩn đoán Folia đã sao chép vào đây và mô tả ngắn sự cố (mạng, trạng thái proxy,...).",
+    "qrDiagnosticsPasteHint": "Dán thông tin chẩn đoán 碎碎念电台 đã sao chép vào đây và mô tả ngắn sự cố (mạng, trạng thái proxy,...).",
     "qrReportWebDeployment": "Đây là sự cố của bản triển khai web này: trang web chưa cấu hình API nền tảng âm nhạc hoặc không thể kết nối. Vui lòng gửi báo cáo chẩn đoán cho người triển khai trang web; nếu đó là bạn, hãy kiểm tra VITE_*_API_BASE theo tài liệu và build lại. Nếu chỉ muốn sử dụng trực tiếp, bạn nên tải bản ứng dụng desktop chính thức.",
     "qrReportUnofficialBuild": "Bạn đang sử dụng bản dựng không chính thức hoặc chưa theo hướng dẫn tự lưu trữ (có thể do người khác đóng gói hoặc chỉnh sửa). Vui lòng phản hồi vấn đề cho người cung cấp bản này. Bản chính thức luôn có tại GitHub Releases.",
     "qrSelfCheckTitle": "Tự động kiểm tra",
     "qrSelfCheckRunning": "Đang kiểm tra mạng và dịch vụ nội bộ…",
     "qrSelfCheckFailed": "Kiểm tra tự động không hoàn tất: {{message}}",
-    "qrSelfCheckBackendDown": "Dịch vụ {{provider}} nội bộ hoạt động không bình thường ({{detail}}). Khởi động lại Folia và thử lại.",
+    "qrSelfCheckBackendDown": "Dịch vụ {{provider}} nội bộ hoạt động không bình thường ({{detail}}). Khởi động lại 碎碎念电台 và thử lại.",
     "qrSelfCheckRemoteUnreachable": "Không thể kết nối máy chủ API ({{detail}}). Kiểm tra địa chỉ triển khai và kết nối mạng.",
-    "qrSelfCheckCredentialStore": "Chùm chìa khóa hệ thống không khả dụng ({{detail}}), không thể lưu mã hóa phiên QQ Music. Cài đặt và mở khóa GNOME Keyring hoặc KWallet, sau đó khởi động lại Folia.",
-    "qrSelfCheckDnsFailed": "Không thể phân giải tên miền máy chủ {{provider}} ({{detail}}). Kiểm tra cài đặt mạng, DNS hoặc đổi mạng và khởi động lại Folia.",
-    "qrSelfCheckTlsReset": "Kết nối tới máy chủ {{provider}} bị ngắt trong quá trình bắt tay mã hóa ({{detail}}). Thường do proxy, bộ tăng tốc, tường lửa hoặc mạng: đổi mạng hoặc tắt proxy, sau đó khởi động lại Folia và thử lại.",
-    "qrSelfCheckUnreachable": "Không thể kết nối máy chủ {{provider}} ({{detail}}). Kiểm tra kết nối mạng hoặc đổi mạng và khởi động lại Folia.",
+    "qrSelfCheckCredentialStore": "Chùm chìa khóa hệ thống không khả dụng ({{detail}}), không thể lưu mã hóa phiên QQ Music. Cài đặt và mở khóa GNOME Keyring hoặc KWallet, sau đó khởi động lại 碎碎念电台.",
+    "qrSelfCheckDnsFailed": "Không thể phân giải tên miền máy chủ {{provider}} ({{detail}}). Kiểm tra cài đặt mạng, DNS hoặc đổi mạng và khởi động lại 碎碎念电台.",
+    "qrSelfCheckTlsReset": "Kết nối tới máy chủ {{provider}} bị ngắt trong quá trình bắt tay mã hóa ({{detail}}). Thường do proxy, bộ tăng tốc, tường lửa hoặc mạng: đổi mạng hoặc tắt proxy, sau đó khởi động lại 碎碎念电台 và thử lại.",
+    "qrSelfCheckUnreachable": "Không thể kết nối máy chủ {{provider}} ({{detail}}). Kiểm tra kết nối mạng hoặc đổi mạng và khởi động lại 碎碎念电台.",
     "qrSelfCheckIpv6Failed": "Kết nối máy chủ {{provider}} qua IPv6 thất bại nhưng IPv4 hoạt động ({{detail}}). Tắt IPv6 hoặc Teredo trong cài đặt hệ thống rồi thử lại.",
-    "qrSelfCheckHttpsFailed": "Kết nối được máy chủ {{provider}} nhưng yêu cầu thất bại ({{detail}}). Đổi mạng, khởi động lại Folia và thử lại.",
+    "qrSelfCheckHttpsFailed": "Kết nối được máy chủ {{provider}} nhưng yêu cầu thất bại ({{detail}}). Đổi mạng, khởi động lại 碎碎念电台 và thử lại.",
     "qrSelfCheckClockSkew": "Đồng hồ hệ thống lệch khoảng {{detail}} phút so với máy chủ. Chỉnh lại giờ hệ thống và thử lại.",
     "qrSelfCheckNetworkOk": "Kiểm tra mạng không phát hiện lỗi.",
     "qrSelfCheckProxyFakeIp": "Proxy chế độ TUN (fake-ip) đang tiếp quản kết nối. Nếu vẫn thất bại, hãy cho phép kết nối trực tiếp tên miền {{provider}} rồi thử lại.",
@@ -2048,7 +2048,7 @@ export default {
     "gridFolderRemoveSelectedTitle": "Xóa các bài hát đã chọn?",
     "gridFolderRemoveSelectedDescription": "Xóa {{count}} bài hát. Thư mục gốc sẽ bị xóa; các thư mục con được chọn toàn bộ sẽ bị bỏ qua khi quét. Tệp trên đĩa giữ nguyên.",
     "gridFolderRemoveRootTitle": "Xóa thư mục gốc đã nhập?",
-    "gridFolderRemoveRootDescription": "Xóa {{path}} cùng toàn bộ bài hát khỏi Folia? Tệp trên đĩa sẽ không bị xóa.",
+    "gridFolderRemoveRootDescription": "Xóa {{path}} cùng toàn bộ bài hát khỏi 碎碎念电台? Tệp trên đĩa sẽ không bị xóa.",
     "login": "Đăng nhập",
     "welcomeBack": "Chào mừng trở lại",
     "guestTitle": "Thử tìm vài bài hát trước",
@@ -2182,7 +2182,7 @@ export default {
     "majorUpdateLabel": "Cập nhật {{codename}} · Bản cập nhật lớn",
     "servicePackLabel": "Cập nhật {{codename}} SP{{servicePack}} · Bản cập nhật lớn",
     "ponder": "Trợ giúp Khám phá",
-    "ponderDescription": "Tìm hiểu thao tác cơ bản và cơ chế vận hành của Folia",
+    "ponderDescription": "Tìm hiểu thao tác cơ bản và cơ chế vận hành của 碎碎念电台",
     "version": "phiên bản"
   },
   "qishui": { "recentPlayed": "Gần đây đã phát trên Qishui", "recommended": "Được đề xuất cho bạn" },
@@ -2493,7 +2493,7 @@ export default {
     "customShortcutTaken": "Phím này đã được gán cho phím tắt khác",
     "customShortcutLettersOnly": "Chỉ chấp nhận chữ cái A–Z",
     "globalShortcuts": "Phím tắt toàn cục",
-    "globalShortcutsDesc": "Các phím điều khiển phát nhạc vẫn hoạt động ngay cả khi Folia đang chạy nền.",
+    "globalShortcutsDesc": "Các phím điều khiển phát nhạc vẫn hoạt động ngay cả khi 碎碎念电台 đang chạy nền.",
     "globalShortcutsNote": "Tự bấm tổ hợp: phím bổ trợ (Ctrl, Alt, Shift, Win/Cmd) cộng với một chữ cái, chữ số, phím chức năng, phím cách, phím mũi tên hoặc một phím như Backspace hay Delete. Các tổ hợp thông dụng như sao chép, dán, chuyển cửa sổ, chọn văn bản và các tổ hợp gõ ra ký tự sẽ bị từ chối, nên thường cần giữ từ hai phím bổ trợ trở lên, ba phím nếu có Win/Cmd. Tổ hợp mặc định Ctrl+Alt+Shift (Control+Option+Shift trên macOS) cùng chữ cái hoặc chữ số ít xung đột với phần mềm khác nhất. Tổ hợp đã bị phần mềm khác sử dụng sẽ được đánh dấu trên dòng tương ứng.",
     "globalShortcutsPortalDesc": "Trên Wayland, môi trường desktop của bạn sẽ phụ trách gán các phím này.",
     "globalShortcutsPortalNote": "Sau khi đăng ký, hãy gán phím cho từng mục theo hướng dẫn của desktop. Phím đề xuất cho mỗi mục:",
@@ -2513,19 +2513,19 @@ export default {
     "globalShortcutReserved": "Hệ thống, môi trường desktop hoặc các phần mềm thông dụng đã dùng tổ hợp này; hãy chọn tổ hợp khác",
     "globalShortcutDuplicate": "Một phím tắt toàn cục khác đã sử dụng tổ hợp này",
     "globalShortcutTakenBySystem": "Một ứng dụng khác đã sử dụng tổ hợp phím này",
-    "globalShortcutCustomCombination": "Không thể kiểm tra phím tắt riêng của phần mềm khác từ đây. Sau khi đăng ký, tổ hợp này sẽ thuộc về Folia trong mọi phần mềm",
+    "globalShortcutCustomCombination": "Không thể kiểm tra phím tắt riêng của phần mềm khác từ đây. Sau khi đăng ký, tổ hợp này sẽ thuộc về 碎碎念电台 trong mọi phần mềm",
     "globalShortcutAltGrCombination": "Trên các bố cục có AltGr (tiếng Đức, tiếng Ba Lan…), Ctrl+Alt cùng phím này gõ ra ký tự như @ hoặc €, và sau khi đăng ký sẽ không gõ được nữa. Cũng không thể kiểm tra phím tắt riêng của phần mềm khác từ đây",
     "globalShortcutModCommand": "{{command}} · {{mod}}",
     "globalShortcutModInactive": "Mod hiện chưa được bật. Phím tắt sẽ hoạt động lại khi mod được bật",
     "globalShortcutModCommandMissing": "Mod hiện không cung cấp lệnh này",
     "replayGainMode": "Chế độ ReplayGain (Cân bằng âm lượng)",
     "replayGainModeDesc": "Chuẩn hóa âm lượng phát bằng siêu dữ liệu ReplayGain của bài hát hoặc album khi khả dụng. Cân bằng thông minh đo từng bài và giảm những bài quá to xuống.",
-    "transitionSettings": "Chuyển tiếp Folia",
+    "transitionSettings": "Chuyển tiếp 碎碎念电台",
     "transitionEnable": "Hòa trộn",
     "transitionMode": "Chế độ chuyển tiếp",
-    "transitionCrossfade": "Folia Crossfade",
+    "transitionCrossfade": "碎碎念电台 Crossfade",
     "transitionCrossfadeDesc": "Bài cũ mờ dần và bài mới rõ dần.",
-    "transitionAutomix": "Folia Automix",
+    "transitionAutomix": "碎碎念电台 Automix",
     "transitionAutomixDesc": "Phân tích và tự động hòa âm giữa hai bài hát.",
     "transitionFellBack": "Dùng crossfade",
     "crossfadeMaxSeconds": "Thời lượng chuyển tiếp tối đa",
@@ -2536,7 +2536,7 @@ export default {
     "transitionEngineLiteDesc": "Giới hạn trình duyệt khiến chất lượng hòa âm chỉ bằng khoảng một nửa so với bản máy tính.",
     "transitionEngineNeedsModels": "Chưa tải mô hình phân tích. Hãy tải về để chạy công cụ đầy đủ.",
     "legacyModelsTitle": "Dọn dẹp các mô hình automix cũ",
-    "legacyModelsDesc": "Các mô hình phân tích của automix hiện đã được đóng gói sẵn cùng Folia, vì vậy các mô hình và runtime được tải xuống ở các phiên bản trước không còn được sử dụng nữa. Thư mục mô hình bạn đã chọn vẫn còn chứa {{files}} tệp, tổng dung lượng {{size}}: {{dir}}. Xóa chỉ gỡ bỏ các tệp cũ này và giữ nguyên mọi thứ khác trong thư mục.",
+    "legacyModelsDesc": "Các mô hình phân tích của automix hiện đã được đóng gói sẵn cùng 碎碎念电台, vì vậy các mô hình và runtime được tải xuống ở các phiên bản trước không còn được sử dụng nữa. Thư mục mô hình bạn đã chọn vẫn còn chứa {{files}} tệp, tổng dung lượng {{size}}: {{dir}}. Xóa chỉ gỡ bỏ các tệp cũ này và giữ nguyên mọi thứ khác trong thư mục.",
     "legacyModelsDelete": "Xóa",
     "legacyModelsOpen": "Mở thư mục",
     "legacyModelsKeep": "Giữ lại, không hỏi lại",
@@ -2752,7 +2752,7 @@ export default {
     "memoryByProcess": "Theo tiến trình",
     "memorySeriesUnavailable": "Không hỗ trợ trên nền tảng này",
     "reduceMotionSection": "Giảm chuyển động",
-    "reduceMotionSectionDesc": "Mặc định Folia phát đầy đủ hiệu ứng và không tự động theo cài đặt hệ thống. Tắt các khu vực cần hiển thị tĩnh hơn.",
+    "reduceMotionSectionDesc": "Mặc định 碎碎念电台 phát đầy đủ hiệu ứng và không tự động theo cài đặt hệ thống. Tắt các khu vực cần hiển thị tĩnh hơn.",
     "reduceMotionFollowSystem": "Theo cài đặt hệ thống",
     "reduceMotionFollowSystemDesc": "Để cài đặt hiệu ứng của hệ điều hành giảm chuyển động toàn bộ, như các phiên bản trước.",
     "reduceMotionForcedBySystem": "Hiện đang bị giảm bởi cài đặt hệ thống phía trên.",
@@ -2821,7 +2821,7 @@ export default {
     "useNativeMacFullscreenButtonDesc": "Đặt nút điều khiển mở toàn màn hình macOS gốc thay vì phóng to cửa sổ. Mặc định tắt.",
     "useNativeMacTrafficLights": "Dùng đèn giao thông macOS gốc",
     "useNativeMacTrafficLightsDesc": "Thay các nút thu nhỏ, phóng to và đóng tự vẽ bằng đèn giao thông hệ thống",
-    "useNativeMacTrafficLightsNotice": "Có hiệu lực sau khi khởi động lại Folia",
+    "useNativeMacTrafficLightsNotice": "Có hiệu lực sau khi khởi động lại 碎碎念电台",
     "hidePlayerProgressBar": "Ẩn thanh điều khiển dưới",
     "playerBottomBarOffset": "Chiều cao điều khiển dưới",
     "playerBottomBarOffsetDesc": "Điều chỉnh thanh điều khiển dưới, thẻ bài hát, nút tác vụ và bảng bên trên mọi trang; phụ đề trình phát cũng di chuyển theo. Tối đa nửa màn hình.",
@@ -2848,12 +2848,12 @@ export default {
     "hidePlayerTranslationSubtitleDesc": "Không ảnh hưởng đến chế độ hiệu ứng thị giác có phụ đề độc lập.",
     "hidePlayerRightPanelButton": "Ẩn nút bên phải trình phát",
     "transparentPlayerBackground": "Nền trình phát trong suốt",
-    "transparentPlayerBackgroundDesc": "Chỉ áp dụng trên trang trình phát. Khi bật, Folia chuyển sang chế độ cửa sổ trong suốt cho nguồn trình duyệt OBS hoặc lớp phủ phông nền.",
+    "transparentPlayerBackgroundDesc": "Chỉ áp dụng trên trang trình phát. Khi bật, 碎碎念电台 chuyển sang chế độ cửa sổ trong suốt cho nguồn trình duyệt OBS hoặc lớp phủ phông nền.",
     "enablePlayerPageNativeBlur": "Bật làm mờ gốc trên trang phát",
     "enablePlayerPageNativeBlurHint": "Sử dụng hiệu ứng làm mờ hệ thống thay cho nền trang phát, tiêu tốn nhiều tài nguyên hơn",
     "enablePlayerPageNativeBlurDesc": "Khi bật, các nền chủ đề, ảnh, Monet sẽ bị ẩn và thay bằng hiệu ứng mờ gốc của hệ thống. Chỉ áp dụng ở chế độ không trong suốt trên máy tính; hiệu ứng này tốn nhiều tài nguyên hơn và có thể gây giật khi di chuyển cửa sổ.",
     "nativeBlurConfirmTitle": "Hiệu ứng kính hệ thống",
-    "nativeBlurConfirmDesc": "Thao tác này đổi nền cửa sổ thành bán trong suốt bằng hiệu ứng kính hệ thống. Nền của Folia sẽ không hiển thị.",
+    "nativeBlurConfirmDesc": "Thao tác này đổi nền cửa sổ thành bán trong suốt bằng hiệu ứng kính hệ thống. Nền của 碎碎念电台 sẽ không hiển thị.",
     "nativeBlurConfirmAction": "Tôi đã hiểu",
     "nativeBlurBackgroundNotice": "Đã bật hiệu ứng kính mờ hệ thống; cài đặt nền động lời bài hát hiện bị ghi đè.",
     "autoHidePlayerChrome": "Tự ẩn thanh điều khiển",
@@ -2914,7 +2914,7 @@ export default {
     "closeToTrayDesc": "Nút đóng sẽ ẩn cửa sổ xuống khay hệ thống thay vì thoát, nhạc vẫn tiếp tục phát. Chọn Thoát trong menu khay để thoát hẳn.",
     "hideTaskbarIcon": "Ẩn biểu tượng thanh tác vụ",
     "hideTaskbarIconDesc": "Ẩn ứng dụng khỏi thanh tác vụ kể cả khi cửa sổ chính đang mở. Dùng biểu tượng khay để mở lại.",
-    "hideTaskbarIconNotice": "Chỉ có thể mở lại cửa sổ từ biểu tượng Folia trên khay hệ thống",
+    "hideTaskbarIconNotice": "Chỉ có thể mở lại cửa sổ từ biểu tượng 碎碎念电台 trên khay hệ thống",
     "remoteControlWindowGroup": "Cửa sổ",
     "remoteLyricsGroup": "Lời bài hát",
     "remoteLyricPairs": "Số cặp lời",
@@ -2944,9 +2944,9 @@ export default {
     "openPlayerOnLaunchDesc": "Mở giao diện phát khi khởi động ứng dụng. Tuân theo \"Chế độ xem khi nhấn Phát\": nếu chọn Lattice, khởi động sẽ mở hàng đợi Lattice.",
     "wallpaperMode": "Chế độ hình nền",
     "wallpaperModeDesc": "Đưa cửa sổ xuống đáy màn hình nền làm hình nền lời bài hát cố định. Không hỗ trợ phím tắt bàn phím.",
-    "wallpaperModeMacPermissionHint": "Chế độ hình nền Mac cần quyền Giám sát đầu vào: bật Folia trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Giám sát đầu vào, sau đó khởi động lại ứng dụng.",
+    "wallpaperModeMacPermissionHint": "Chế độ hình nền Mac cần quyền Giám sát đầu vào: bật 碎碎念电台 trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Giám sát đầu vào, sau đó khởi động lại ứng dụng.",
     "wallpaperEnterConfirmTitle": "Vào chế độ hình nền?",
-    "wallpaperEnterConfirmDesc": "Cửa sổ sẽ chìm xuống đáy màn hình nền và hiển thị như hình nền lời bài hát. Cửa sổ sẽ không thể đóng, thu nhỏ hay di chuyển, bàn phím cũng không tác động được vào ứng dụng.\n\nĐể thoát, mở menu Folia ở khay hệ thống (thanh menu trên macOS) và nhấp lại vào \"Chế độ hình nền\".",
+    "wallpaperEnterConfirmDesc": "Cửa sổ sẽ chìm xuống đáy màn hình nền và hiển thị như hình nền lời bài hát. Cửa sổ sẽ không thể đóng, thu nhỏ hay di chuyển, bàn phím cũng không tác động được vào ứng dụng.\n\nĐể thoát, mở menu 碎碎念电台 ở khay hệ thống (thanh menu trên macOS) và nhấp lại vào \"Chế độ hình nền\".",
     "wallpaperEnterConfirmAction": "Vào chế độ hình nền",
     "wallpaperDisplay": "Màn hình hình nền",
     "wallpaperDisplayDesc": "Màn hình hiển thị trong chế độ hình nền",
@@ -2999,7 +2999,7 @@ export default {
     "stageConnectionError": "Không thể kết nối ws://localhost:9863/api/ws/lyric. Đảm bảo dịch vụ now-playing đang chạy trên máy.",
     "stageNotRunning": "Khởi chạy dịch vụ now-playing trên máy này và đảm bảo trình phát đang phát nhạc.",
     "discordRichPresence": "Discord Rich Presence",
-    "discordRichPresenceDesc": "Hiển thị bài hát Folia đang phát trên Discord desktop. Folia kết nối bằng danh tính ứng dụng tích hợp sẵn.",
+    "discordRichPresenceDesc": "Hiển thị bài hát 碎碎念电台 đang phát trên Discord desktop. 碎碎念电台 kết nối bằng danh tính ứng dụng tích hợp sẵn.",
     "discordPresenceDisabled": "Đã tắt",
     "discordPresenceConnected": "Đã kết nối",
     "discordPresenceDisconnected": "Chưa kết nối",
@@ -3011,7 +3011,7 @@ export default {
     "obsBrowserSourceGuideStep1": "Trong OBS, thêm nguồn Trình duyệt tại mục Nguồn.",
     "obsBrowserSourceGuideStep2": "Dán URL OBS ở trên vào ô URL.",
     "obsBrowserSourceGuideStep3": "Đặt kích thước 1920x1080 (1080x1920 cho màn hình dọc). Kích thước lớn hơn như 3840x2160 sẽ phóng to tỷ lệ giúp chữ sắc nét hơn.",
-    "obsBrowserSourceGuideStep4": "Nguồn trình duyệt chỉ hiển thị hình ảnh và không phát âm thanh. Để thu âm, dùng nguồn âm thanh màn hình hoặc thu âm ứng dụng Folia trong OBS.",
+    "obsBrowserSourceGuideStep4": "Nguồn trình duyệt chỉ hiển thị hình ảnh và không phát âm thanh. Để thu âm, dùng nguồn âm thanh màn hình hoặc thu âm ứng dụng 碎碎念电台 trong OBS.",
     "obsBrowserSourceGuideStep5": "Cài đặt hiển thị như chủ đề, phông chữ và hiệu ứng được đồng bộ sang OBS. Nền OBS sẽ trong suốt khi cửa sổ chính dùng nền trong suốt hoặc hiệu ứng mờ gốc.",
     "obsBrowserSourceGuideStep6": "Số kết nối lớn hơn 0 nghĩa là OBS đã kết nối. Tạo lại token sẽ vô hiệu hóa URL cũ, cần cập nhật lại trong OBS.",
     "obsBrowserSourceAddress": "URL OBS",
@@ -3246,8 +3246,8 @@ export default {
     "beatEffectsNeedSmartBeat": "Bật chế độ nhịp thông minh trong thẻ «Cài đặt chung» để các hiệu ứng này hoạt động.",
     "beatEffectsOpenSmartBeat": "Đến thẻ «Cài đặt chung»",
     "beatEffectStrength": "Độ mạnh",
-    "beatEffectNeedsDrums": "Thiếu mô hình HTDemucs trong bản cài đặt này; vui lòng cài đặt lại Folia. Đối với bài hát không có tiếng trống, hiệu ứng cũng sẽ không hiển thị.",
-    "beatEffectNeedsStems": "Thiếu mô hình HTDemucs trong bản cài đặt này; vui lòng cài đặt lại Folia.",
+    "beatEffectNeedsDrums": "Thiếu mô hình HTDemucs trong bản cài đặt này; vui lòng cài đặt lại 碎碎念电台. Đối với bài hát không có tiếng trống, hiệu ứng cũng sẽ không hiển thị.",
+    "beatEffectNeedsStems": "Thiếu mô hình HTDemucs trong bản cài đặt này; vui lòng cài đặt lại 碎碎念电台.",
     "beatEffect_sonnetLensTear": "Xé ống kính",
     "beatEffect_sonnetLensTearDesc": "Theo các nhịp do beat_this phát hiện: mỗi nhịp đẩy camera vào gần; nhịp đầu tiên của mỗi ô nhịp sẽ xé hình và lóe sáng.",
     "beatEffect_dioramaRipple": "Gợn sóng gương soi",
@@ -3712,15 +3712,15 @@ export default {
     "glowBlurQuantizeDesc": "Thay đổi cách kết xuất ánh sáng phát ra của lời bài hát để khắc phục sự cố đơ khi phát lâu trên Linux. Mặc định bật trên Linux, tắt ở hệ thống khác. Xem",
     "glowBlurQuantizeDocs": "Lỗi cạn kiệt Chromium FD",
     "backgroundThrottling": "Tiết kiệm tài nguyên chạy ngầm",
-    "backgroundThrottlingHint": "Giảm tốc độ kết xuất và tạm giữ hoạt cảnh lời bài hát khi Folia thu nhỏ hoặc ẩn",
-    "backgroundThrottlingDesc": "Khi cửa sổ bị thu nhỏ hoặc ẩn xuống khay hệ thống, Chromium có thể hạn chế tài nguyên và hoạt cảnh lời bài hát sẽ dừng lại, tiếp tục từ vị trí hiện tại khi bạn quay lại. Cửa sổ chỉ mất tiêu điểm nhưng vẫn hiển thị trên màn hình vẫn tiếp tục hoạt động. Âm nhạc vẫn phát bình thường. Tắt theo mặc định vì người phát trực tiếp (streamer) quay cửa sổ Folia trong OBS cần kết xuất liên tục trong nền. Không ảnh hưởng trong chế độ hình nền, khi xuất video hoặc khi kết nối nguồn trình duyệt OBS.",
+    "backgroundThrottlingHint": "Giảm tốc độ kết xuất và tạm giữ hoạt cảnh lời bài hát khi 碎碎念电台 thu nhỏ hoặc ẩn",
+    "backgroundThrottlingDesc": "Khi cửa sổ bị thu nhỏ hoặc ẩn xuống khay hệ thống, Chromium có thể hạn chế tài nguyên và hoạt cảnh lời bài hát sẽ dừng lại, tiếp tục từ vị trí hiện tại khi bạn quay lại. Cửa sổ chỉ mất tiêu điểm nhưng vẫn hiển thị trên màn hình vẫn tiếp tục hoạt động. Âm nhạc vẫn phát bình thường. Tắt theo mặc định vì người phát trực tiếp (streamer) quay cửa sổ 碎碎念电台 trong OBS cần kết xuất liên tục trong nền. Không ảnh hưởng trong chế độ hình nền, khi xuất video hoặc khi kết nối nguồn trình duyệt OBS.",
     "gpuPreference": "GPU kết xuất đồ họa",
     "gpuPreferenceHint": "Chọn card đồ họa hiển thị ứng dụng trên máy tính có hai GPU; áp dụng sau khi khởi động lại",
-    "gpuPreferenceDesc": "Tự động: Windows tự quyết định, trên laptop thường là GPU tích hợp điều khiển màn hình và tiết kiệm pin hơn. Hiệu năng cao: GPU rời, hoạt cảnh mượt mà hơn nhưng tiêu thụ nhiều điện hơn, kể cả khi nhạc phát trong nền. Tiết kiệm điện: GPU tích hợp. Cài đặt GPU cho Folia trong Windows Graphics settings sẽ được ưu tiên cao hơn.",
+    "gpuPreferenceDesc": "Tự động: Windows tự quyết định, trên laptop thường là GPU tích hợp điều khiển màn hình và tiết kiệm pin hơn. Hiệu năng cao: GPU rời, hoạt cảnh mượt mà hơn nhưng tiêu thụ nhiều điện hơn, kể cả khi nhạc phát trong nền. Tiết kiệm điện: GPU tích hợp. Cài đặt GPU cho 碎碎念电台 trong Windows Graphics settings sẽ được ưu tiên cao hơn.",
     "gpuPreferenceAuto": "Tự động",
     "gpuPreferenceHighPerformance": "Hiệu năng cao",
     "gpuPreferenceLowPower": "Tiết kiệm điện",
-    "gpuPreferenceRestartNotice": "Có hiệu lực sau khi Folia khởi động lại",
+    "gpuPreferenceRestartNotice": "Có hiệu lực sau khi 碎碎念电台 khởi động lại",
     "gpuPreferenceCommandLineNotice": "Lần khởi chạy này đã truyền tham số GPU qua dòng lệnh, tham số này được ưu tiên",
     "gpuPreferenceActive": "Đang dùng",
     "visualizerFrameRateValue": "Giới hạn",
@@ -4067,8 +4067,8 @@ export default {
     "macManualUpdateNotice": "Lưu ý: macOS yêu cầu tải thủ công bộ cài đầy đủ để cập nhật.",
     "linuxManualUpdateNotice": "Linux không hỗ trợ cập nhật tự động. Tải gói deb, rpm hoặc tar.gz hoàn chỉnh để nâng cấp thủ công; chỉ bản cài đặt AUR ổn định mới nên nâng cấp folia-major-bin qua trình quản lý gói.",
     "manualUpdateNotice": "Lưu ý: Nền tảng này chưa hỗ trợ cập nhật tự động. Tải gói cài đặt thủ công để nâng cấp.",
-    "unofficialBuildNotice": "Bản dựng không chính thức: phiên bản này không được build từ CI của repo Folia cũng như không triển khai theo hướng dẫn (Docker, Vercel, Cloudflare), có thể đã bị chỉnh sửa hoặc thiếu dịch vụ backend. Vui lòng liên hệ người cung cấp trước; bản chính thức có tại GitHub Releases.",
-    "selfHostedBuildNotice": "Bản tự lưu trữ: do người triển khai tự build và quản lý, bao gồm cả backend nền tảng âm nhạc. Vui lòng liên hệ người triển khai trước; chỉ báo cáo lên GitHub khi xác định rõ là lỗi của Folia.",
+    "unofficialBuildNotice": "Bản dựng không chính thức: phiên bản này không được build từ CI của repo 碎碎念电台 cũng như không triển khai theo hướng dẫn (Docker, Vercel, Cloudflare), có thể đã bị chỉnh sửa hoặc thiếu dịch vụ backend. Vui lòng liên hệ người cung cấp trước; bản chính thức có tại GitHub Releases.",
+    "selfHostedBuildNotice": "Bản tự lưu trữ: do người triển khai tự build và quản lý, bao gồm cả backend nền tảng âm nhạc. Vui lòng liên hệ người triển khai trước; chỉ báo cáo lên GitHub khi xác định rõ là lỗi của 碎碎念电台.",
     "nowPlayingStatusHint": "Kết nối tới ws://localhost:9863/api/ws/lyric. Khởi chạy dịch vụ now-playing trước.",
     "globalLyricTimelineOffset": "Độ lệch thời gian toàn cục",
     "settingsHeadingLyricTiming": "Thời gian & Bộ lọc lời",
@@ -4104,8 +4104,8 @@ export default {
     "v0_7_1": {
       "intro": "Chào mừng đến với 0.7.1, Bản cập nhật Pleiades—bản phát hành lớn bao quát khả năng phát nhạc, tiện ích mở rộng, tích hợp desktop và hiệu ứng thị giác.",
       "pleiadesAutomix": {
-        "title": "Chuyển bài thông minh Folia Automix",
-        "description": "Folia phân tích nhịp, tốc độ, tông, độ lớn và cấu trúc bài hát để chọn cắt nhịp, đổi âm trầm, nối đoạn kết hoặc hòa trộn. Bản máy tính hỗ trợ tải mô hình tùy chọn để căn nhịp chính xác hơn, tách dải âm (stem) và mở chế độ Hiệu năng."
+        "title": "Chuyển bài thông minh 碎碎念电台 Automix",
+        "description": "碎碎念电台 phân tích nhịp, tốc độ, tông, độ lớn và cấu trúc bài hát để chọn cắt nhịp, đổi âm trầm, nối đoạn kết hoặc hòa trộn. Bản máy tính hỗ trợ tải mô hình tùy chọn để căn nhịp chính xác hơn, tách dải âm (stem) và mở chế độ Hiệu năng."
       },
       "modsPlatform": {
         "title": "Hệ thống Mod kiểu Forge (Thử nghiệm)",
@@ -4113,7 +4113,7 @@ export default {
       },
       "windowsWallpaper": {
         "title": "Chế độ hình nền Desktop trên Windows",
-        "description": "Folia nay có thể ẩn dưới các biểu tượng màn hình Windows để làm hình nền lời bài hát thường trực, hỗ trợ điều khiển qua khay hệ thống và bảng lệnh, chuyển tiếp chuột và tự phục hồi khi lỗi. Chế độ này không hỗ trợ bàn phím."
+        "description": "碎碎念电台 nay có thể ẩn dưới các biểu tượng màn hình Windows để làm hình nền lời bài hát thường trực, hỗ trợ điều khiển qua khay hệ thống và bảng lệnh, chuyển tiếp chuột và tự phục hồi khi lỗi. Chế độ này không hỗ trợ bàn phím."
       },
       "sleepTimer": {
         "title": "Hẹn giờ ngủ tự khôi phục",
@@ -4182,7 +4182,7 @@ export default {
       },
       "macWallpaperMode": {
         "title": "Chế độ hình nền trên macOS",
-        "description": "Người dùng Mac nay có thể đặt Folia xuống dưới các biểu tượng màn hình làm hình nền lời bài hát, chuyển đổi ngay lập tức mà không cần khởi động lại, cùng tùy chọn tự ẩn thanh Dock khi bật. Tính năng chuyển tiếp chuột yêu cầu cấp quyền cho Folia trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Giám sát đầu vào; chế độ này không hỗ trợ bàn phím."
+        "description": "Người dùng Mac nay có thể đặt 碎碎念电台 xuống dưới các biểu tượng màn hình làm hình nền lời bài hát, chuyển đổi ngay lập tức mà không cần khởi động lại, cùng tùy chọn tự ẩn thanh Dock khi bật. Tính năng chuyển tiếp chuột yêu cầu cấp quyền cho 碎碎念电台 trong Cài đặt hệ thống → Quyền riêng tư & Bảo mật → Giám sát đầu vào; chế độ này không hỗ trợ bàn phím."
       },
       "transcodeFallback": {
         "title": "Tự động phát âm thanh không hỗ trợ giải mã",
@@ -4190,7 +4190,7 @@ export default {
       },
       "localFolderAutoScan": {
         "title": "Tự động quét lại thư mục đã nhập",
-        "description": "Khi bật, Folia sẽ theo dõi các thư mục nội bộ đã nhập và tự động quét gia tăng mỗi khi tệp được thêm, sửa hoặc xóa — không cần nhập lại thủ công. Tính năng này mặc định tắt; cài đặt lưu trữ hiển thị trạng thái theo dõi của từng thư mục. Một số môi trường chỉ hỗ trợ theo dõi thư mục gốc."
+        "description": "Khi bật, 碎碎念电台 sẽ theo dõi các thư mục nội bộ đã nhập và tự động quét gia tăng mỗi khi tệp được thêm, sửa hoặc xóa — không cần nhập lại thủ công. Tính năng này mặc định tắt; cài đặt lưu trữ hiển thị trạng thái theo dõi của từng thư mục. Một số môi trường chỉ hỗ trợ theo dõi thư mục gốc."
       },
       "lyricFilterPersistence": {
         "title": "Giữ nguyên biểu thức lọc lời bài hát",
@@ -4205,7 +4205,7 @@ export default {
       "intro": "Phiên bản 0.7.5 cho phép tùy chọn giao diện mở khi phát nhạc, đưa các thao tác trên lưới và cài đặt vào bảng lệnh, đồng thời nâng cao độ ổn định trên máy tính.",
       "playbackEntryChoice": {
         "title": "Chọn giao diện khi bắt đầu phát",
-        "description": "Tùy chọn mở trình phát hiệu ứng thị giác hay lưới hàng đợi Lattice khi nhấn Phát. Folia sẽ hỏi một lần sau ghi chú phát hành, và bạn có thể thay đổi lại trong cài đặt Giao diện. FM cá nhân vẫn mở trình phát tiêu chuẩn vì Lattice không hỗ trợ tính năng này."
+        "description": "Tùy chọn mở trình phát hiệu ứng thị giác hay lưới hàng đợi Lattice khi nhấn Phát. 碎碎念电台 sẽ hỏi một lần sau ghi chú phát hành, và bạn có thể thay đổi lại trong cài đặt Giao diện. FM cá nhân vẫn mở trình phát tiêu chuẩn vì Lattice không hỗ trợ tính năng này."
       },
       "commandPaletteGridActions": {
         "title": "Thao tác dạng lưới trong bảng lệnh",
@@ -4221,7 +4221,7 @@ export default {
       },
       "desktopReliability": {
         "title": "Cập nhật và báo cáo sự cố rõ ràng hơn trên máy tính",
-        "description": "Bản dựng macOS và Linux nay có thể kiểm tra phiên bản mới và dẫn bạn đến trình cài đặt đầy đủ hoặc AUR, trong khi Windows vẫn duy trì cập nhật tự động. Khi Folia gặp sự cố, ứng dụng sẽ lưu nhật ký chẩn đoán và có thể mở thư mục chứa tệp; trình gỡ cài đặt trên Windows cũng có thể xóa dữ liệu người dùng khi được yêu cầu."
+        "description": "Bản dựng macOS và Linux nay có thể kiểm tra phiên bản mới và dẫn bạn đến trình cài đặt đầy đủ hoặc AUR, trong khi Windows vẫn duy trì cập nhật tự động. Khi 碎碎念电台 gặp sự cố, ứng dụng sẽ lưu nhật ký chẩn đoán và có thể mở thư mục chứa tệp; trình gỡ cài đặt trên Windows cũng có thể xóa dữ liệu người dùng khi được yêu cầu."
       },
       "visualizerRefinements": {
         "title": "Hiệu ứng thị giác nhẹ hơn, rõ nét hơn",
@@ -4259,7 +4259,7 @@ export default {
       },
       "motionControls": {
         "title": "Tùy chỉnh chuyển động theo từng khu vực",
-        "description": "Folia nay mặc định phát toàn bộ hiệu ứng động thay vì nhảy tức thì khi hệ thống tắt hiệu ứng động. Mục Giảm chuyển động mới trong cài đặt Phòng thí nghiệm cho phép bạn giảm riêng từng hiệu ứng: lưới hàng đợi, chuyển tiếp tự phối, chuyển cảnh mở bộ sưu tập, trôi nền Monet, chuyển động vi mô trên giao diện và cuộn mượt trong Cài đặt. Bật mục Theo cài đặt hệ thống nếu bạn muốn giữ hành vi trước đây."
+        "description": "碎碎念电台 nay mặc định phát toàn bộ hiệu ứng động thay vì nhảy tức thì khi hệ thống tắt hiệu ứng động. Mục Giảm chuyển động mới trong cài đặt Phòng thí nghiệm cho phép bạn giảm riêng từng hiệu ứng: lưới hàng đợi, chuyển tiếp tự phối, chuyển cảnh mở bộ sưu tập, trôi nền Monet, chuyển động vi mô trên giao diện và cuộn mượt trong Cài đặt. Bật mục Theo cài đặt hệ thống nếu bạn muốn giữ hành vi trước đây."
       },
       "wallpaperMultiMonitor": {
         "title": "Chế độ hình nền trên mọi màn hình",
@@ -4320,15 +4320,15 @@ export default {
       "intro": "Chào mừng bạn đến với 0.7.27. Spotify có thêm cách phát Soloist, nên tài khoản không nhận được khóa âm thanh vẫn nghe được nhạc; âm lượng và tắt tiếng của Apple Music giờ đã hoạt động, thư viện có thêm Tất cả bài hát, và lời từng từ có sẵn sẽ nhường cho nguồn lời bạn ưu tiên; và fnOS Music đăng nhập được từ bên ngoài mạng LAN bằng FN ID.",
       "soloist": {
         "title": "Spotify: phát bằng Soloist",
-        "description": "Một số tài khoản Spotify (thường là tài khoản tạo sau cuối năm 2024) không bao giờ nhận được khóa âm thanh, nên cách phát của chính Folia không phát được. Giờ khi đăng nhập bạn có thể chọn Tiêu chuẩn hoặc Soloist: Soloist là chương trình phát chính thức của Spotify, tải về riêng và cần một khóa API tạo bằng tài khoản Premium. Với Tiêu chuẩn, sau khi đăng nhập Folia kiểm tra xem tài khoản có lấy được khóa không và gợi ý chuyển sang Soloist nếu không. Danh sách thiết lập hướng dẫn bạn cài chương trình, nhập khóa và ghép đôi thiết bị; mở nó từ trang tài khoản, Thiết lập phát nhạc của nền tảng trong bảng lệnh, hoặc thông báo phát lỗi. Soloist đưa âm thanh thẳng ra đầu ra hệ thống, nên bộ cân bằng, Automix và xuất video của Folia không áp dụng cho nó. Đồng thời sửa lỗi: trên Linux cả ứng dụng có thể bị treo khi phát Spotify lần đầu."
+        "description": "Một số tài khoản Spotify (thường là tài khoản tạo sau cuối năm 2024) không bao giờ nhận được khóa âm thanh, nên cách phát của chính 碎碎念电台 không phát được. Giờ khi đăng nhập bạn có thể chọn Tiêu chuẩn hoặc Soloist: Soloist là chương trình phát chính thức của Spotify, tải về riêng và cần một khóa API tạo bằng tài khoản Premium. Với Tiêu chuẩn, sau khi đăng nhập 碎碎念电台 kiểm tra xem tài khoản có lấy được khóa không và gợi ý chuyển sang Soloist nếu không. Danh sách thiết lập hướng dẫn bạn cài chương trình, nhập khóa và ghép đôi thiết bị; mở nó từ trang tài khoản, Thiết lập phát nhạc của nền tảng trong bảng lệnh, hoặc thông báo phát lỗi. Soloist đưa âm thanh thẳng ra đầu ra hệ thống, nên bộ cân bằng, Automix và xuất video của 碎碎念电台 không áp dụng cho nó. Đồng thời sửa lỗi: trên Linux cả ứng dụng có thể bị treo khi phát Spotify lần đầu."
       },
       "amUpdate": {
         "title": "Cải tiến Apple Music",
-        "description": "Thanh âm lượng và nút tắt tiếng giờ điều khiển được âm thanh của Apple Music. Danh sách phát trong thư viện có thêm Tất cả bài hát để duyệt mọi bài bạn đã lưu. Khi khởi động, tài khoản lần trước hiện ngay thay vì để trống chờ vài giây, và trên máy tính bài đang phát không còn dừng khi cửa sổ được dựng lại (ví dụ khi bật tắt cửa sổ trong suốt)—cửa sổ mới phát tiếp. Khi bài hát có sẵn lời từng từ, Folia chuyển sang nguồn được chọn trong Ưu tiên khớp lời bài hát (mặc định là QQ Music) nếu nguồn đó cũng có lời từng từ, nên bạn không phải tự đổi sang lời có bản dịch cho từng bài. Cài đặt lời bài hát mới, Giữ lời từng từ có sẵn của nền tảng, có thể tắt để bài Apple Music chọn lời tốt nhất từ mọi nguồn như các bài khác."
+        "description": "Thanh âm lượng và nút tắt tiếng giờ điều khiển được âm thanh của Apple Music. Danh sách phát trong thư viện có thêm Tất cả bài hát để duyệt mọi bài bạn đã lưu. Khi khởi động, tài khoản lần trước hiện ngay thay vì để trống chờ vài giây, và trên máy tính bài đang phát không còn dừng khi cửa sổ được dựng lại (ví dụ khi bật tắt cửa sổ trong suốt)—cửa sổ mới phát tiếp. Khi bài hát có sẵn lời từng từ, 碎碎念电台 chuyển sang nguồn được chọn trong Ưu tiên khớp lời bài hát (mặc định là QQ Music) nếu nguồn đó cũng có lời từng từ, nên bạn không phải tự đổi sang lời có bản dịch cho từng bài. Cài đặt lời bài hát mới, Giữ lời từng từ có sẵn của nền tảng, có thể tắt để bài Apple Music chọn lời tốt nhất từ mọi nguồn như các bài khác."
       },
       "fnConnect": {
         "title": "fnOS Music: đăng nhập bằng FN ID",
-        "description": "Địa chỉ máy chủ fnOS Music giờ chỉ cần là FN ID (ví dụ mynas): Folia kết nối tới thiết bị fnOS của bạn qua máy chủ chuyển tiếp FN Connect, nên bạn có thể đăng nhập và phát nhạc bên ngoài mạng nội bộ. Địa chỉ có giao thức, cổng hoặc đường dẫn vẫn kết nối trực tiếp, và kết nối qua chuyển tiếp luôn dùng HTTPS."
+        "description": "Địa chỉ máy chủ fnOS Music giờ chỉ cần là FN ID (ví dụ mynas): 碎碎念电台 kết nối tới thiết bị fnOS của bạn qua máy chủ chuyển tiếp FN Connect, nên bạn có thể đăng nhập và phát nhạc bên ngoài mạng nội bộ. Địa chỉ có giao thức, cổng hoặc đường dẫn vẫn kết nối trực tiếp, và kết nối qua chuyển tiếp luôn dùng HTTPS."
       },
       "moreDetails": {
         "title": "Cải tiến khác",
@@ -4432,7 +4432,7 @@ export default {
       },
       "vietnamese": {
         "title": "Giao diện tiếng Việt",
-        "description": "Giao diện nay đã có tiếng Việt, do thành viên cộng đồng dịch; chuyển đổi trong cài đặt ngôn ngữ hoặc bảng lệnh. Tùy chọn Theo hệ thống nay chọn theo ngôn ngữ hệ thống hiện tại mỗi lần khởi động, nên khi đổi ngôn ngữ hệ thống, lần khởi động sau Folia sẽ đổi theo; bản macOS không còn hiển thị tiếng Anh trên hệ thống tiếng Trung."
+        "description": "Giao diện nay đã có tiếng Việt, do thành viên cộng đồng dịch; chuyển đổi trong cài đặt ngôn ngữ hoặc bảng lệnh. Tùy chọn Theo hệ thống nay chọn theo ngôn ngữ hệ thống hiện tại mỗi lần khởi động, nên khi đổi ngôn ngữ hệ thống, lần khởi động sau 碎碎念电台 sẽ đổi theo; bản macOS không còn hiển thị tiếng Anh trên hệ thống tiếng Trung."
       },
       "moreDetails": {
         "title": "Thêm nhiều cải tiến",
@@ -4455,7 +4455,7 @@ export default {
       },
       "globalShortcuts": {
         "title": "Phím tắt phát nhạc toàn cục",
-        "description": "Bản máy tính bổ sung mục Thao tác nhanh → Phím tắt toàn cục: điều khiển phát nhạc ngay cả khi Folia không ở cửa sổ tiền cảnh bằng tổ hợp Ctrl+Alt+Shift (Control+Option+Shift trên macOS) kèm một phím chữ cái hoặc chữ số. Gán phát/tạm dừng, bài trước, bài kế tiếp, tăng giảm âm lượng, tắt tiếng, lặp lại và xáo trộn, cũng như các lệnh do mod cung cấp; các tổ hợp phím bị ứng dụng khác chiếm dụng sẽ được đánh dấu rõ ràng. Trên Wayland gốc, một nút bấm sẽ đăng ký trực tiếp vào môi trường desktop để bạn gán phím trong cài đặt hệ thống. Bảng lệnh nhanh cũng bổ sung lệnh phát/tạm dừng và tăng/giảm âm lượng."
+        "description": "Bản máy tính bổ sung mục Thao tác nhanh → Phím tắt toàn cục: điều khiển phát nhạc ngay cả khi 碎碎念电台 không ở cửa sổ tiền cảnh bằng tổ hợp Ctrl+Alt+Shift (Control+Option+Shift trên macOS) kèm một phím chữ cái hoặc chữ số. Gán phát/tạm dừng, bài trước, bài kế tiếp, tăng giảm âm lượng, tắt tiếng, lặp lại và xáo trộn, cũng như các lệnh do mod cung cấp; các tổ hợp phím bị ứng dụng khác chiếm dụng sẽ được đánh dấu rõ ràng. Trên Wayland gốc, một nút bấm sẽ đăng ký trực tiếp vào môi trường desktop để bạn gán phím trong cài đặt hệ thống. Bảng lệnh nhanh cũng bổ sung lệnh phát/tạm dừng và tăng/giảm âm lượng."
       },
       "aiProviders": {
         "title": "Dịch vụ & mô hình AI",
@@ -4470,7 +4470,7 @@ export default {
       "intro": "Chào mừng bạn đến với phiên bản 0.7.21, bản cập nhật Sabbat-of-the-witch — một bản phát hành lớn. Ứng dụng máy tính bổ sung Spotify và YouTube Music, và mọi nền tảng hiện đăng nhập thông qua một cửa sổ đăng nhập duy nhất; màn hình chính có thêm tab Khám phá; Sonnet, Diorama và Pendolo có thêm chế độ Nhịp thông minh chuyển động theo nhịp điệu và tiếng trống; QQ Music có thể đăng nhập bằng ứng dụng QQ Music, và giao diện hiện đã hỗ trợ tiếng Trung Phồn thể.",
       "newPlatforms": {
         "title": "Spotify và YouTube Music",
-        "description": "Hai nền tảng mới trên máy tính. Đăng nhập Spotify qua trình duyệt hệ thống để tìm kiếm, duyệt bài hát, thích, lưu và chỉnh sửa danh sách phát; phát nhạc yêu cầu Spotify Premium, hỗ trợ chất lượng lên đến 320k và hiện chưa khả dụng trên máy Mac chạy chip Intel. YouTube Music hỗ trợ tìm kiếm và phát nhạc mà không cần đăng nhập; để đăng nhập, Folia sẽ mở Chrome, Edge, Chromium hoặc Brave trên máy tính cho tài khoản Google của bạn, và tài khoản Premium có thể chọn chất lượng âm thanh cao hơn. Cả hai nền tảng chỉ cung cấp lời bài hát đồng bộ theo dòng và hiện chưa hỗ trợ trên phiên bản web."
+        "description": "Hai nền tảng mới trên máy tính. Đăng nhập Spotify qua trình duyệt hệ thống để tìm kiếm, duyệt bài hát, thích, lưu và chỉnh sửa danh sách phát; phát nhạc yêu cầu Spotify Premium, hỗ trợ chất lượng lên đến 320k và hiện chưa khả dụng trên máy Mac chạy chip Intel. YouTube Music hỗ trợ tìm kiếm và phát nhạc mà không cần đăng nhập; để đăng nhập, 碎碎念电台 sẽ mở Chrome, Edge, Chromium hoặc Brave trên máy tính cho tài khoản Google của bạn, và tài khoản Premium có thể chọn chất lượng âm thanh cao hơn. Cả hai nền tảng chỉ cung cấp lời bài hát đồng bộ theo dòng và hiện chưa hỗ trợ trên phiên bản web."
       },
       "loginWindow": {
         "title": "Một cửa sổ đăng nhập thống nhất",
@@ -4486,7 +4486,7 @@ export default {
       },
       "qqMusic": {
         "title": "QQ Music: Đăng nhập qua ứng dụng và nhiều cải tiến",
-        "description": "QQ Music hiện có thể đăng nhập bằng cách quét mã bằng ứng dụng QQ Music (trên desktop, Docker và Node, cùng mã nguồn cũng hoạt động với QQ di động và WeChat); trên phiên bản web với backend Serverless, đăng nhập sẽ tự động làm mới tối đa 30 ngày. Tìm kiếm khi đã đăng nhập ổn định hơn, và khi nền tảng từ chối tìm kiếm bạn sẽ thấy thông báo lỗi thay vì \"không có kết quả\". Điểm mới: ổ đĩa đám mây âm nhạc (chỉ các bài hát có thể phát), cấp độ thành viên, số lượt nghe danh sách phát và tạo danh sách phát trống; khi không có nguồn phát đầy đủ, Folia sẽ phát bản nghe thử và thông báo rõ. Các tính năng này yêu cầu qq-music-api 3.3.3 ở backend."
+        "description": "QQ Music hiện có thể đăng nhập bằng cách quét mã bằng ứng dụng QQ Music (trên desktop, Docker và Node, cùng mã nguồn cũng hoạt động với QQ di động và WeChat); trên phiên bản web với backend Serverless, đăng nhập sẽ tự động làm mới tối đa 30 ngày. Tìm kiếm khi đã đăng nhập ổn định hơn, và khi nền tảng từ chối tìm kiếm bạn sẽ thấy thông báo lỗi thay vì \"không có kết quả\". Điểm mới: ổ đĩa đám mây âm nhạc (chỉ các bài hát có thể phát), cấp độ thành viên, số lượt nghe danh sách phát và tạo danh sách phát trống; khi không có nguồn phát đầy đủ, 碎碎念电台 sẽ phát bản nghe thử và thông báo rõ. Các tính năng này yêu cầu qq-music-api 3.3.3 ở backend."
       },
       "moreDetails": {
         "title": "Nhiều cải tiến khác",
@@ -4497,7 +4497,7 @@ export default {
       "intro": "0.7.20 bổ sung cho QQ Music tính năng gợi ý, thích, yêu thích và chỉnh sửa danh sách phát; thêm tùy chọn \"Tự động bỏ qua bài hát không thể phát\"; xuất video máy tính tin cậy hơn cho tệp lớn và trên Linux; hỗ trợ tách bè nhạc trên máy Mac dùng chip Intel; và cho phép mod thêm trang riêng vào màn hình chính.",
       "qqMusic": {
         "title": "Hoàn thiện tính năng cho QQ Music",
-        "description": "Sau khi đăng nhập QQ Music, bạn có danh sách gợi ý hàng ngày, FM cá nhân và danh sách phát đề xuất (danh sách đề xuất xem được cả khi không đăng nhập). Bạn có thể thích bài hát, lưu danh sách phát và album, thêm/xóa bài hát trong danh sách do mình tạo; xóa bài hát khỏi mục \"Yêu thích\" sẽ bỏ thích. Khi bài hát gặp lỗi do tài khoản VIP hoặc giới hạn khu vực, Folia sẽ gợi ý nguyên nhân có thể xảy ra. QQ hiện chưa hỗ trợ \"không thích\", nên nút thùng rác trong FM cá nhân sẽ bị làm mờ."
+        "description": "Sau khi đăng nhập QQ Music, bạn có danh sách gợi ý hàng ngày, FM cá nhân và danh sách phát đề xuất (danh sách đề xuất xem được cả khi không đăng nhập). Bạn có thể thích bài hát, lưu danh sách phát và album, thêm/xóa bài hát trong danh sách do mình tạo; xóa bài hát khỏi mục \"Yêu thích\" sẽ bỏ thích. Khi bài hát gặp lỗi do tài khoản VIP hoặc giới hạn khu vực, 碎碎念电台 sẽ gợi ý nguyên nhân có thể xảy ra. QQ hiện chưa hỗ trợ \"không thích\", nên nút thùng rác trong FM cá nhân sẽ bị làm mờ."
       },
       "autoSkip": {
         "title": "Tự động bỏ qua bài hát không thể phát",
@@ -4505,7 +4505,7 @@ export default {
       },
       "videoExport": {
         "title": "Xuất video đáng tin cậy hơn",
-        "description": "Xuất video trên máy tính giờ đây ghi trực tiếp vào đĩa trong khi quay, giúp các tệp lớn như 4K không còn bị lỗi ở bước cuối cùng. Cơ chế mới quay trực tiếp trang của Folia: trên Linux (gồm Wayland) không còn lỗi mất nguồn quay, các cửa sổ bị che khuất vẫn ghi hình chính xác, và quay 4K đạt tốc độ khung hình cao hơn nhiều. Tệp MP4 xuất ra hiện đã hiển thị chính xác thời lượng."
+        "description": "Xuất video trên máy tính giờ đây ghi trực tiếp vào đĩa trong khi quay, giúp các tệp lớn như 4K không còn bị lỗi ở bước cuối cùng. Cơ chế mới quay trực tiếp trang của 碎碎念电台: trên Linux (gồm Wayland) không còn lỗi mất nguồn quay, các cửa sổ bị che khuất vẫn ghi hình chính xác, và quay 4K đạt tốc độ khung hình cao hơn nhiều. Tệp MP4 xuất ra hiện đã hiển thị chính xác thời lượng."
       },
       "automixIntelMac": {
         "title": "Hỗ trợ tách giọng hát trên Mac Intel",
@@ -4513,7 +4513,7 @@ export default {
       },
       "modHomePages": {
         "title": "Mod có thể thêm trang vào trang chủ",
-        "description": "Folium 1.5: các mod có thể thêm trang riêng vào màn hình chính, đặt cạnh các tab tích hợp sẵn. Mod có thể đọc và điều chỉnh âm lượng, chế độ tắt tiếng và lặp lại, xem và phát bài từ hàng đợi, cũng như nhận biết khi phát nhạc thất bại. Bảng điều khiển mod hiển thị dung lượng bộ nhớ mỗi mod sử dụng và cho phép xóa bộ nhớ đệm; các menu thả xuống trong cài đặt mod giờ đây đồng bộ giao diện với phần còn lại của Folia. Mod từ kênh Beta cộng đồng được đánh dấu màu tím và cảnh báo trước khi bật."
+        "description": "Folium 1.5: các mod có thể thêm trang riêng vào màn hình chính, đặt cạnh các tab tích hợp sẵn. Mod có thể đọc và điều chỉnh âm lượng, chế độ tắt tiếng và lặp lại, xem và phát bài từ hàng đợi, cũng như nhận biết khi phát nhạc thất bại. Bảng điều khiển mod hiển thị dung lượng bộ nhớ mỗi mod sử dụng và cho phép xóa bộ nhớ đệm; các menu thả xuống trong cài đặt mod giờ đây đồng bộ giao diện với phần còn lại của 碎碎念电台. Mod từ kênh Beta cộng đồng được đánh dấu màu tím và cảnh báo trước khi bật."
       },
       "stabilityFixes": {
         "title": "Tinh chỉnh và cải thiện độ ổn định",
@@ -4521,7 +4521,7 @@ export default {
       }
     },
     "v0_7_19": {
-      "intro": "Phiên bản 0.7.19 biến trang nghệ sĩ và album trong Bravais thành các poster phong cách Tempera sống động. Khi một bài hát trực tuyến không phát được, Folia giờ đây hiển thị lý do thực tế thay vì luôn báo bài hát bị gỡ; các hiệu ứng thị giác từng từ như Tempera phân tách lời tiếng Trung và tiếng Nhật tự nhiên hơn; và bản web đã có thể khởi động ngoại tuyến trở lại.",
+      "intro": "Phiên bản 0.7.19 biến trang nghệ sĩ và album trong Bravais thành các poster phong cách Tempera sống động. Khi một bài hát trực tuyến không phát được, 碎碎念电台 giờ đây hiển thị lý do thực tế thay vì luôn báo bài hát bị gỡ; các hiệu ứng thị giác từng từ như Tempera phân tách lời tiếng Trung và tiếng Nhật tự nhiên hơn; và bản web đã có thể khởi động ngoại tuyến trở lại.",
       "artistPoster": {
         "title": "Trang nghệ sĩ trở thành Poster phong cách",
         "description": "Dải thông tin đầy đủ trên trang nghệ sĩ Bravais giờ đây được vẽ như một tấm poster phong cách Tempera ghim ở bên trái không gian tường. Bố cục được tối ưu riêng theo từng nghệ sĩ, màu sắc lấy từ ba album phổ biến nhất của nghệ sĩ, và tên tự động co giãn vừa vặn thay vì tràn viền. Bức tường album bên phải nghiêng nhẹ để kết nối, và bạn vẫn có thể kéo cuộn mượt mà ngay cả khi tường đang nghiêng."
@@ -4532,7 +4532,7 @@ export default {
       },
       "playbackFailure": {
         "title": "Thông báo chi tiết nguyên nhân lỗi phát nhạc",
-        "description": "Một bài hát trực tuyến phát thất bại không còn luôn hiển thị \"bài hát đã bị xóa\". Folia giờ đây phân biệt rõ ràng giữa bài hát bị gỡ, mất kết nối mạng hoặc hết thời gian chờ, lỗi máy chủ hoặc giới hạn tần suất, bài hát yêu cầu đăng nhập, tài khoản VIP hoặc cần mua gói, và giới hạn vùng lãnh thổ. Chỉ những bài hát thực sự bị xóa mới đếm ngược chuyển bài tiếp theo và tìm phiên bản thay thế; khi mất mạng, trình phát sẽ tạm dừng và giữ nguyên hàng đợi để bạn thử lại hoặc bỏ qua; các trường hợp yêu cầu đăng nhập, VIP hoặc mua bản quyền sẽ được báo rõ ràng mà không thử lại liên tục. Hỗ trợ NetEase, QQ Music, KuGou và Bodian."
+        "description": "Một bài hát trực tuyến phát thất bại không còn luôn hiển thị \"bài hát đã bị xóa\". 碎碎念电台 giờ đây phân biệt rõ ràng giữa bài hát bị gỡ, mất kết nối mạng hoặc hết thời gian chờ, lỗi máy chủ hoặc giới hạn tần suất, bài hát yêu cầu đăng nhập, tài khoản VIP hoặc cần mua gói, và giới hạn vùng lãnh thổ. Chỉ những bài hát thực sự bị xóa mới đếm ngược chuyển bài tiếp theo và tìm phiên bản thay thế; khi mất mạng, trình phát sẽ tạm dừng và giữ nguyên hàng đợi để bạn thử lại hoặc bỏ qua; các trường hợp yêu cầu đăng nhập, VIP hoặc mua bản quyền sẽ được báo rõ ràng mà không thử lại liên tục. Hỗ trợ NetEase, QQ Music, KuGou và Bodian."
       },
       "lyricSegmenter": {
         "title": "Phân tách từ tiếng Trung và tiếng Nhật tự nhiên hơn",
@@ -4575,14 +4575,14 @@ export default {
       }
     },
     "v0_7_17": {
-      "intro": "Chào mừng bạn đến với 0.7.17, bản cập nhật Spica — một bản phát hành lớn. Thư viện sở hữu giao diện Bravais hoàn toàn mới: không gian poster 3D cho phép kéo duyệt linh hoạt. Sau khi cập nhật, Folia sẽ hỏi một lần để bạn chọn Bravais hay dạng lưới cổ điển; chế độ xem mở khi phát nhạc có thêm tùy chọn \"Ở lại đây\", cùng khả năng đánh dấu bài hát nội bộ là nhạc không lời.",
+      "intro": "Chào mừng bạn đến với 0.7.17, bản cập nhật Spica — một bản phát hành lớn. Thư viện sở hữu giao diện Bravais hoàn toàn mới: không gian poster 3D cho phép kéo duyệt linh hoạt. Sau khi cập nhật, 碎碎念电台 sẽ hỏi một lần để bạn chọn Bravais hay dạng lưới cổ điển; chế độ xem mở khi phát nhạc có thêm tùy chọn \"Ở lại đây\", cùng khả năng đánh dấu bài hát nội bộ là nhạc không lời.",
       "bravais": {
         "title": "Bravais, giao diện thư viện mới",
         "description": "Thư viện hóa thành không gian poster 3D: mở danh sách phát, album hoặc nghệ sĩ sẽ lật poster sang nội dung mới, thông tin trang và các thao tác nằm gọn trong thanh thông tin mở trên giao diện. Kéo để duyệt, di chuyển bằng phím mũi tên hoặc gõ phím để lọc trang hiện tại. Dạng lưới cổ điển vẫn khả dụng tại Cài đặt → Giao diện → Giao diện thư viện."
       },
       "chooseLibrary": {
         "title": "Chọn giao diện, giữ nguyên vị trí",
-        "description": "Sau khi cập nhật, Folia sẽ hỏi một lần để bạn chọn Bravais hay dạng lưới cổ điển (bản cài mới cũng được hỏi thêm chế độ xem mở khi phát nhạc). Tùy chọn \"Ở lại đây\" mới giúp bạn giữ nguyên vị trí khi nhấn Phát, và thẻ đang phát sẽ chuyển thành nút tạm dừng / tiếp tục."
+        "description": "Sau khi cập nhật, 碎碎念电台 sẽ hỏi một lần để bạn chọn Bravais hay dạng lưới cổ điển (bản cài mới cũng được hỏi thêm chế độ xem mở khi phát nhạc). Tùy chọn \"Ở lại đây\" mới giúp bạn giữ nguyên vị trí khi nhấn Phát, và thẻ đang phát sẽ chuyển thành nút tạm dừng / tiếp tục."
       },
       "wallLook": {
         "title": "Tùy biến diện mạo không gian Bravais",
@@ -4590,7 +4590,7 @@ export default {
       },
       "pureMusic": {
         "title": "Đánh dấu bài hát nội bộ là nhạc không lời",
-        "description": "Trong cửa sổ khớp lời bài hát (Khớp trực tuyến ở tab Nội bộ trên bảng trình phát, hoặc Khớp trực tuyến thủ công trong thư viện), chọn \"Đánh dấu là nhạc không lời\" để Folia ngừng tự động tìm lời cho bài hát đó; chọn lại để hoàn tác. Bảng lệnh cũng hỗ trợ bật tắt nhanh mục này."
+        "description": "Trong cửa sổ khớp lời bài hát (Khớp trực tuyến ở tab Nội bộ trên bảng trình phát, hoặc Khớp trực tuyến thủ công trong thư viện), chọn \"Đánh dấu là nhạc không lời\" để 碎碎念电台 ngừng tự động tìm lời cho bài hát đó; chọn lại để hoàn tác. Bảng lệnh cũng hỗ trợ bật tắt nhanh mục này."
       },
       "navidromePreset": {
         "title": "Cấu hình sẵn tài khoản Navidrome cho Docker",
@@ -4624,7 +4624,7 @@ export default {
       "intro": "Phiên bản 0.7.15 cải thiện khả năng xử lý tiếng Trung trong lời bài hát nội bộ và thẻ MP3, giúp đăng nhập bằng mã QR ổn định hơn kèm hướng dẫn rõ ràng khi gặp lỗi, hỗ trợ phím tắt từ thao tác mô phỏng, đồng thời sửa lỗi lịch sử quay lại phình to giữa trang nghệ sĩ và album cùng lỗi chuyển mã trên Apple Silicon.",
       "localLyrics": {
         "title": "Tương thích tệp lời bài hát nội bộ tốt hơn",
-        "description": "Hỗ trợ giải mã lời bài hát KRC, tự động nhận diện mã hóa GBK và chuẩn hóa dấu ngắt dòng, giúp lời xuất từ công cụ cũ không còn bị lỗi trống. Dòng trống không còn đẩy lời gốc vào dòng bản dịch. Khi tệp LRC song ngữ gắn sai mốc thời gian bản dịch, Folia sẽ thông báo khi phát và hướng dẫn khắc phục tại tab Nội bộ trên bảng phát."
+        "description": "Hỗ trợ giải mã lời bài hát KRC, tự động nhận diện mã hóa GBK và chuẩn hóa dấu ngắt dòng, giúp lời xuất từ công cụ cũ không còn bị lỗi trống. Dòng trống không còn đẩy lời gốc vào dòng bản dịch. Khi tệp LRC song ngữ gắn sai mốc thời gian bản dịch, 碎碎念电台 sẽ thông báo khi phát và hướng dẫn khắc phục tại tab Nội bộ trên bảng phát."
       },
       "mp3Tags": {
         "title": "Không còn lỗi hiển thị thẻ MP3 tiếng Trung",
@@ -4632,7 +4632,7 @@ export default {
       },
       "qrLogin": {
         "title": "Đăng nhập QR ổn định hơn kèm hướng dẫn",
-        "description": "Đăng nhập QR NetEase sẽ tự thử lại bằng danh tính mới khi kết nối bị ngắt giữa chừng và hiển thị nguyên nhân thực tế nếu thất bại. Sau khi lỗi, các giải pháp đơn giản như khởi động lại Folia hoặc đổi mạng sẽ xuất hiện cạnh mã QR, kèm thông tin chẩn đoán bên dưới. Phần chẩn đoán QQ Music đã trở lại, và khi hủy trên điện thoại, việc thử lại sẽ chờ đến khi máy chủ hết thời gian chờ."
+        "description": "Đăng nhập QR NetEase sẽ tự thử lại bằng danh tính mới khi kết nối bị ngắt giữa chừng và hiển thị nguyên nhân thực tế nếu thất bại. Sau khi lỗi, các giải pháp đơn giản như khởi động lại 碎碎念电台 hoặc đổi mạng sẽ xuất hiện cạnh mã QR, kèm thông tin chẩn đoán bên dưới. Phần chẩn đoán QQ Music đã trở lại, và khi hủy trên điện thoại, việc thử lại sẽ chờ đến khi máy chủ hết thời gian chờ."
       },
       "injectedShortcuts": {
         "title": "Phím tắt hỗ trợ thao tác mô phỏng",
@@ -4889,7 +4889,7 @@ export default {
     "exportPlaylist": "Xuất M3U8",
     "playlistImportSuccess": "Đã nhập “{{name}}” với {{count}} bài hát.",
     "playlistImportPartial": "Đã nhập {{count}} bài vào “{{name}}”; bỏ qua {{skipped}} đường dẫn thiếu hoặc không rõ ràng.",
-    "playlistImportNoMatches": "Không có đường dẫn nào khớp với nhạc nội bộ hiện có trong Folia.",
+    "playlistImportNoMatches": "Không có đường dẫn nào khớp với nhạc nội bộ hiện có trong 碎碎念电台.",
     "playlistImportFailed": "Nhập danh sách phát thất bại. Hãy đảm bảo tệp M3U hoặc M3U8 hợp lệ.",
     "playlistExportSuccess": "Đã xuất “{{name}}”.",
     "entityInfo": "Thông tin {{kind}}",
@@ -4989,7 +4989,7 @@ export default {
     "posterChecking": "Đang tìm poster.png trong thư mục…",
     "posterFound": "Đã tìm thấy {{name}} trong thư mục",
     "posterMissing": "Không có poster.png trong thư mục này",
-    "posterNoAccess": "Cho phép Folia đọc thư mục này để dùng poster.png của nó",
+    "posterNoAccess": "Cho phép 碎碎念电台 đọc thư mục này để dùng poster.png của nó",
     "posterUnavailable": "Không thể đọc thư mục này",
     "upload": "Tải ảnh lên",
     "restore": "Khôi phục mặc định",
@@ -5001,7 +5001,7 @@ export default {
     "saved": "Đã đặt ảnh bìa",
     "restored": "Đã khôi phục ảnh bìa tự động",
     "failed": "Chưa đặt được ảnh bìa: {{error}}",
-    "notImage": "Tệp đó không phải ảnh mà Folia đọc được"
+    "notImage": "Tệp đó không phải ảnh mà 碎碎念电台 đọc được"
   },
   "navidrome": {
     "title": "Navi",
@@ -5075,9 +5075,9 @@ export default {
       "engineWeb": "Web Audio",
       "engineMpv": "mpv · HiFi bit-perfect",
       "engineMpvNotice": "mpv bỏ qua Web Audio: khi phát các bài này, bộ cân bằng, hiệu ứng, ReplayGain, mờ âm, chuyển tiếp thông minh, phổ âm thanh và xuất video lời bài hát đều tắt, và theo mặc định âm lượng do DAC hoặc bộ khuếch đại của bạn điều chỉnh.",
-      "unsupported": "Bản Folia này không có công cụ phát HiFi.",
+      "unsupported": "Bản 碎碎念电台 này không có công cụ phát HiFi.",
       "confirmTitle": "mpv phát ở âm lượng tối đa",
-      "confirmDesc": "mpv gửi tín hiệu ở mức âm lượng 100%. Thanh âm lượng trong Folia không còn thay đổi độ lớn nữa: DAC hoặc bộ khuếch đại của bạn mới làm việc đó. Hãy giảm âm lượng ở đó trước khi phát.",
+      "confirmDesc": "mpv gửi tín hiệu ở mức âm lượng 100%. Thanh âm lượng trong 碎碎念电台 không còn thay đổi độ lớn nữa: DAC hoặc bộ khuếch đại của bạn mới làm việc đó. Hãy giảm âm lượng ở đó trước khi phát.",
       "confirmAction": "Dùng mpv",
       "runtime": "Trình phát mpv",
       "runtimeChecking": "Đang tìm mpv...",
@@ -5089,7 +5089,7 @@ export default {
       "linuxInstallHint": "Cài mpv 0.39 trở lên bằng trình quản lý gói, sau đó dò lại. Một số bản phát hành hỗ trợ dài hạn đi kèm mpv cũ hơn.",
       "manualPathRejected": "Không dùng được tệp đã chọn: tệp không tồn tại, không phải mpv, hoặc cũ hơn 0.39.",
       "sourceManual": "tệp đã chọn",
-      "sourceDownloaded": "do Folia tải xuống",
+      "sourceDownloaded": "do 碎碎念电台 tải xuống",
       "sourceSystem": "đã cài trên hệ thống này",
       "download": "Tải mpv {{version}}",
       "update": "Cập nhật lên mpv {{version}}",
@@ -5109,14 +5109,14 @@ export default {
       "device": "Thiết bị đầu ra",
       "deviceAuto": "Mặc định hệ thống",
       "deviceDirect": "Trực tiếp",
-      "deviceDirectNote": "Các thiết bị đánh dấu Trực tiếp được mpv tự mở, bỏ qua PipeWire và PulseAudio; trong lúc Folia phát qua thiết bị đó, không ứng dụng nào khác dùng được card âm thanh ấy.",
+      "deviceDirectNote": "Các thiết bị đánh dấu Trực tiếp được mpv tự mở, bỏ qua PipeWire và PulseAudio; trong lúc 碎碎念电台 phát qua thiết bị đó, không ứng dụng nào khác dùng được card âm thanh ấy.",
       "deviceLinuxHint": "Để có đầu ra bit-perfect, hãy chọn thiết bị đánh dấu Trực tiếp.",
       "devicesRefresh": "Làm mới danh sách thiết bị",
       "devicesLoading": "Đang đọc thiết bị từ mpv...",
       "devicesEmpty": "Không tìm thấy thiết bị đầu ra nào.",
       "devicesNeedMpv": "Danh sách thiết bị cần có mpv.",
       "exclusive": "Chế độ độc quyền",
-      "exclusiveDesc": "Folia chiếm riêng thiết bị, nên bộ trộn âm hệ thống không thể lấy mẫu lại hay trộn âm thanh. Trong lúc đó, các ứng dụng khác không phát được âm thanh trên thiết bị này, và điều khiển phương tiện của hệ thống không khả dụng.",
+      "exclusiveDesc": "碎碎念电台 chiếm riêng thiết bị, nên bộ trộn âm hệ thống không thể lấy mẫu lại hay trộn âm thanh. Trong lúc đó, các ứng dụng khác không phát được âm thanh trên thiết bị này, và điều khiển phương tiện của hệ thống không khả dụng.",
       "dsdMode": "Đầu ra DSD",
       "dsdModeDesc": "DoP gửi DSD nguyên vẹn, đóng gói trong các khung PCM.",
       "dsdPcm": "Chuyển sang PCM",
@@ -5129,7 +5129,7 @@ export default {
       "navidrome": "Bài hát Navidrome cũng dùng mpv",
       "navidromeDesc": "Lấy tệp gốc từ máy chủ, không chuyển mã. Khi tắt, bài hát Navidrome dùng Web Audio.",
       "softwareVolume": "Âm lượng phần mềm",
-      "softwareVolumeDesc": "Để thanh âm lượng trong Folia điều chỉnh âm lượng của mpv. Khi đó đường tín hiệu không còn bit-perfect.",
+      "softwareVolumeDesc": "Để thanh âm lượng trong 碎碎念电台 điều chỉnh âm lượng của mpv. Khi đó đường tín hiệu không còn bit-perfect.",
     },
     "player": {
       "badge": "HiFi · {{verdict}}",
@@ -5159,7 +5159,7 @@ export default {
       "noSource": "Chưa tải âm thanh",
       "outputLabel": "Đầu ra",
       "outputDesc": "Âm lượng, bộ cân bằng và hiệu ứng áp dụng như thường; không bit-perfect.",
-      "note": "Chỉ bao gồm việc chuyển mã của chính Folia; việc chuyển mã phía máy chủ và định dạng thực tế của thiết bị không hiển thị ở đây."
+      "note": "Chỉ bao gồm việc chuyển mã của chính 碎碎念电台; việc chuyển mã phía máy chủ và định dạng thực tế của thiết bị không hiển thị ở đây."
     },
     "signal": {
       "title": "Đường tín hiệu HiFi",
@@ -5239,7 +5239,7 @@ export default {
         "filter": "Bị bộ lọc trong PipeWire thay đổi: {{names}}",
         "filterPlain": "Bị bộ lọc trong PipeWire thay đổi"
       },
-      "transportLocal": "Đọc nguyên từng byte từ thư viện của bạn qua cầu nối cục bộ của Folia",
+      "transportLocal": "Đọc nguyên từng byte từ thư viện của bạn qua cầu nối cục bộ của 碎碎念电台",
       "transportNavidrome": "Tệp gốc từ Navidrome, không chuyển mã",
       "processBypassed": "Không có bộ cân bằng, hiệu ứng, ReplayGain hay thay đổi âm lượng",
       "outputExclusive": "Chế độ độc quyền",
@@ -5254,25 +5254,25 @@ export default {
         "rateVirtual": "Âm thanh đi vào thiết bị ảo {{name}} (một ứng dụng hiệu ứng như EasyEffects, hoặc một bộ lọc không nối với card âm thanh nào). Báo cáo của PipeWire dừng ở đây: không rõ card âm thanh cuối cùng nhận được và tần số lấy mẫu của nó",
         "filtersOk": "Không có bộ lọc nào (bộ cân bằng, ánh xạ lại kênh) giữa mpv và thiết bị",
         "filtersWarn": "Các bộ lọc thay đổi âm thanh trên đường đi: {{names}}",
-        "streamVolumeOk": "Luồng của Folia ở mức 100% trong PipeWire",
-        "streamVolumeWarn": "Luồng của Folia ở mức {{volume}} trong PipeWire, làm thay đổi biên độ mọi mẫu",
+        "streamVolumeOk": "Luồng của 碎碎念电台 ở mức 100% trong PipeWire",
+        "streamVolumeWarn": "Luồng của 碎碎念电台 ở mức {{volume}} trong PipeWire, làm thay đổi biên độ mọi mẫu",
         "deviceVolumeOk": "Thiết bị không dùng âm lượng phần mềm",
         "deviceVolumeWarn": "PipeWire áp dụng một phần âm lượng thiết bị bằng phần mềm ({{volume}}), làm thay đổi biên độ mọi mẫu",
         "otherStreamsOk": "Không có gì khác đang phát trên thiết bị này",
         "otherStreamsWarn": "Cũng đang phát trên thiết bị này: {{names}}",
-        "ownStream": "{{name}} (từ chính Folia)",
+        "ownStream": "{{name}} (từ chính 碎碎念电台)",
         "channelsOk": "Thiết bị nhận đúng các kênh mpv gửi",
         "channelsWarn": "mpv gửi {{from}}, thiết bị nhận {{to}}: PipeWire trộn lại các kênh",
         "channelsWarnPlain": "Thiết bị nhận các kênh khác với mpv gửi: PipeWire trộn lại chúng",
         "hintForced": "clock.force-rate của PipeWire đang giữ tần số lấy mẫu ở {{forced}}, nên thiết bị không chuyển sang {{rate}}. Để hoàn tác, hãy chạy lệnh này trong terminal:",
         "hintNotAllowed": "PipeWire không được phép chuyển sang {{rate}}: hãy thêm nó vào default.clock.allowed-rates. Lưu dòng bên dưới thành tệp .conf trong ~/.config/pipewire/pipewire.conf.d/, rồi khởi động lại PipeWire.",
         "hintBusy": "PipeWire chỉ đổi tần số khi thiết bị đang rảnh; hiện có luồng khác đang phát trên thiết bị: {{names}}.",
-        "hintBusyOwn": "Trong số đó có một luồng từ chính Folia: công cụ web của Folia vẫn đang mở một nguồn âm thanh.",
+        "hintBusyOwn": "Trong số đó có một luồng từ chính 碎碎念电台: công cụ web của 碎碎念电台 vẫn đang mở một nguồn âm thanh.",
         "hintJoin": "{{first}} {{second}}",
         "hintNoSwitch": "PipeWire không chuyển thiết bị sang {{rate}}. Nó chỉ chuyển sang tần số có trong default.clock.allowed-rates mà thiết bị hỗ trợ, và chỉ khi không có gì khác đang phát trên thiết bị.",
         "snippetLabel": "Cấu hình PipeWire",
         "commandLabel": "Lệnh terminal",
-        "footnote": "Đây là những gì PipeWire báo cáo. Folia chỉ đọc được báo cáo của PipeWire và không thể xác nhận DAC của bạn nhận được gì: hãy xem đèn báo tần số lấy mẫu trên DAC, hoặc lắng nghe."
+        "footnote": "Đây là những gì PipeWire báo cáo. 碎碎念电台 chỉ đọc được báo cáo của PipeWire và không thể xác nhận DAC của bạn nhận được gì: hãy xem đèn báo tần số lấy mẫu trên DAC, hoặc lắng nghe."
       }
     },
     "notice": {
@@ -5287,7 +5287,7 @@ export default {
       "MPV_SPAWN_FAILED": "Không thể khởi động mpv.",
       "MPV_CRASHED": "mpv đã dừng đột ngột.",
       "IPC_TIMEOUT": "mpv đã ngừng phản hồi.",
-      "CIRCUIT_OPEN": "mpv liên tục gặp lỗi, nên HiFi bị tắt cho đến khi Folia khởi động lại. Bài hát sẽ phát bằng công cụ phát thông thường.",
+      "CIRCUIT_OPEN": "mpv liên tục gặp lỗi, nên HiFi bị tắt cho đến khi 碎碎念电台 khởi động lại. Bài hát sẽ phát bằng công cụ phát thông thường.",
       "DEVICE_BUSY": "Một ứng dụng khác hoặc máy chủ âm thanh của hệ thống đang dùng thiết bị đầu ra. Hãy đóng ứng dụng đó, hoặc chọn thiết bị khác trong cài đặt công cụ phát.",
       "DEVICE_UNAVAILABLE": "Không thể mở thiết bị đầu ra.",
       "SOURCE_UNREACHABLE": "Không thể đọc tệp bài hát.",
@@ -5304,8 +5304,8 @@ export default {
     "videoExportUnavailable": "Không thể xuất video khi dùng công cụ phát HiFi: âm thanh của nó đi thẳng đến thiết bị đầu ra và không thể ghi lại."
   },
   "unifiedPanel": {
-    "nowPlayingStageDescription": "Now Playing do trình phát ngoài điều khiển. Folia chỉ hiển thị lời bài hát và hiệu ứng thị giác.",
-    "stageLocalInputDescription": "Stage đang ở chế độ nhập nội bộ đơn luồng. Thiết bị ngoài có thể đẩy lời hoặc phương tiện, nhưng Folia sẽ tự kiểm soát phát và hiển thị.",
+    "nowPlayingStageDescription": "Now Playing do trình phát ngoài điều khiển. 碎碎念电台 chỉ hiển thị lời bài hát và hiệu ứng thị giác.",
+    "stageLocalInputDescription": "Stage đang ở chế độ nhập nội bộ đơn luồng. Thiết bị ngoài có thể đẩy lời hoặc phương tiện, nhưng 碎碎念电台 sẽ tự kiểm soát phát và hiển thị.",
   },
   "libraryBravaisArtist": {
     "allSongsCountUnit_one": "bài hát",
@@ -5346,8 +5346,8 @@ export default {
     "allSongsCollectionName": "Tất cả bài hát của {{artistName}}",
   },
   "obs": {
-    "connecting": "Đang kết nối Folia",
-    "waitingForPlayback": "Chờ phát nhạc từ Folia"
+    "connecting": "Đang kết nối 碎碎念电台",
+    "waitingForPlayback": "Chờ phát nhạc từ 碎碎念电台"
   },
   "queue": {
     "remove": "Xóa khỏi hàng đợi",
@@ -5443,7 +5443,7 @@ export default {
     }
   },
   "userGuide": {
-    "title": "Chào mừng đến với Folia",
+    "title": "Chào mừng đến với 碎碎念电台",
     "subtitle": "Một số mẹo giúp bạn điều hướng dễ dàng hơn.",
     "commandPalette": {
       "title": "Bảng lệnh",
@@ -5465,15 +5465,15 @@ export default {
     },
     "theme": {
       "title": "Chủ đề màu sắc",
-      "desc": "Tùy chỉnh Folia với chủ đề sáng/tối riêng hoặc tạo chủ đề AI từ bài hát hiện tại.",
+      "desc": "Tùy chỉnh 碎碎念电台 với chủ đề sáng/tối riêng hoặc tạo chủ đề AI từ bài hát hiện tại.",
       "customDesc": "Mở Theme Park từ cài đặt hiển thị hoặc bảng lệnh để chỉnh và lưu màu sáng/tối tùy biến.",
-      "aiDesc": "Khi thiết lập chủ đề AI, Folia có thể tạo màu theo bài hát và tự động áp dụng chủ đề đã lưu."
+      "aiDesc": "Khi thiết lập chủ đề AI, 碎碎念电台 có thể tạo màu theo bài hát và tự động áp dụng chủ đề đã lưu."
     },
     "clickThrough": {
       "title": "Khôi phục nhấp xuyên thấu",
       "desc": "Khi bật nhấp xuyên thấu, dùng biểu tượng khay hệ thống để bật/tắt nếu nút điều khiển cửa sổ bị ẩn.",
       "trayTitle": "Dùng biểu tượng khay",
-      "trayDesc": "Nhấp chuột phải vào biểu tượng khay Folia, chọn mục nhấp xuyên thấu để bật hoặc tắt.",
+      "trayDesc": "Nhấp chuột phải vào biểu tượng khay 碎碎念电台, chọn mục nhấp xuyên thấu để bật hoặc tắt.",
       "lockTitle": "Dùng nút khóa",
       "lockDesc": "Di chuột vào vùng trên thanh tiêu đề để hiện nút khóa, sau đó nhấp để tắt nhấp xuyên thấu."
     },
@@ -5492,25 +5492,25 @@ export default {
     "commandsDesc": "Kích hoạt lệnh nhanh bằng cách gõ tiếng Anh, chữ Hán hoặc Pinyin.",
     "ready": {
       "title": "Sẵn sàng",
-      "subtitle": "Tận hưởng hành trình âm nhạc cùng Folia."
+      "subtitle": "Tận hưởng hành trình âm nhạc cùng 碎碎念电台."
     }
   },
   "soloist": {
     "method": {
       "standard": "Tiêu chuẩn",
-      "standardNote": "Đăng nhập Spotify trong trình duyệt; Folia tự phát bài hát. Bộ cân bằng, Automix và các hiệu ứng theo nhạc đều hoạt động.",
+      "standardNote": "Đăng nhập Spotify trong trình duyệt; 碎碎念电台 tự phát bài hát. Bộ cân bằng, Automix và các hiệu ứng theo nhạc đều hoạt động.",
       "soloist": "Soloist",
       "soloistNote": "Đăng nhập Spotify trong trình duyệt; chương trình Soloist chính thức của Spotify phát bài hát. Dành cho tài khoản không nhận được khóa âm thanh. Soloist được tải riêng, và khóa API của nó được tạo bằng tài khoản Premium."
     },
     "setup": {
       "title": "Thiết lập Spotify Soloist",
-      "note": "Soloist là trình phát chính thức của Spotify, một chương trình trên máy này tự gửi âm thanh ra đầu ra của hệ thống; Folia điều khiển nó và theo vị trí của nó để hiện lời bài hát. Bộ cân bằng, Automix và các hiệu ứng theo nhạc của Folia không xử lý âm thanh của nó.",
+      "note": "Soloist là trình phát chính thức của Spotify, một chương trình trên máy này tự gửi âm thanh ra đầu ra của hệ thống; 碎碎念电台 điều khiển nó và theo vị trí của nó để hiện lời bài hát. Bộ cân bằng, Automix và các hiệu ứng theo nhạc của 碎碎念电台 không xử lý âm thanh của nó.",
       "titleStandard": "Cách Spotify phát nhạc",
-      "noteStandard": "Hiện Folia tự phát bài hát Spotify. Nếu tài khoản này không nhận được khóa âm thanh và bài hát không phát được, bạn có thể chuyển sang Soloist chính thức của Spotify."
+      "noteStandard": "Hiện 碎碎念电台 tự phát bài hát Spotify. Nếu tài khoản này không nhận được khóa âm thanh và bài hát không phát được, bạn có thể chuyển sang Soloist chính thức của Spotify."
     },
     "noKey": {
       "title": "Tài khoản này không nhận được khóa âm thanh từ Spotify",
-      "note": "Spotify không cấp khóa âm thanh cho tài khoản này, nên cách phát của Folia không phát được bài hát của nó (thường gặp với tài khoản tạo từ cuối năm 2024). Bạn có thể phát qua Soloist chính thức của Spotify: tải chương trình Soloist, tạo khóa API bằng tài khoản Premium, rồi chọn thiết bị một lần trong ứng dụng Spotify. Danh sách phát, lời bài hát và tìm kiếm không bị ảnh hưởng."
+      "note": "Spotify không cấp khóa âm thanh cho tài khoản này, nên cách phát của 碎碎念电台 không phát được bài hát của nó (thường gặp với tài khoản tạo từ cuối năm 2024). Bạn có thể phát qua Soloist chính thức của Spotify: tải chương trình Soloist, tạo khóa API bằng tài khoản Premium, rồi chọn thiết bị một lần trong ứng dụng Spotify. Danh sách phát, lời bài hát và tìm kiếm không bị ảnh hưởng."
     },
     "step": {
       "program": "Chương trình Soloist",
@@ -5520,12 +5520,12 @@ export default {
       "modeSoloist": "Cách phát: Soloist"
     },
     "mode": {
-      "standardNote": "Folia tự phát bài hát Spotify.",
+      "standardNote": "碎碎念电台 tự phát bài hát Spotify.",
       "soloistNote": "Soloist phát bài hát Spotify.",
-      "noKeyNote": "Cách phát của Folia không phát được bài hát của tài khoản này."
+      "noKeyNote": "Cách phát của 碎碎念电台 không phát được bài hát của tài khoản này."
     },
     "program": {
-      "todo": "Tải Soloist cho máy này từ trang của Spotify, giải nén rồi chọn chương trình soloist bên trong (soloist.exe trên Windows). Folia không kèm theo chương trình này.",
+      "todo": "Tải Soloist cho máy này từ trang của Spotify, giải nén rồi chọn chương trình soloist bên trong (soloist.exe trên Windows). 碎碎念电台 không kèm theo chương trình này.",
       "valid": "Phiên bản {{version}}, chạy đến {{expires}} (còn {{days}} ngày).",
       "expiring": "Phiên bản {{version}} sẽ ngừng chạy sau {{days}} ngày ({{expires}}). Mỗi bản dựng chạy được 90 ngày: hãy tải bản mới, giải nén rồi chọn lại.",
       "unknown": "Phiên bản {{version}}. Không đọc được ngày của bản dựng này nên không biết khi nào nó ngừng chạy. Mỗi bản dựng chạy được 90 ngày; sau đó Soloist từ chối khởi động.",
@@ -5545,7 +5545,7 @@ export default {
     "pair": {
       "done": "Đã ghép nối: sẵn sàng phát.",
       "waiting": "Hãy làm xong hai bước ở trên trước.",
-      "todo": "Trong ứng dụng Spotify trên cùng mạng (điện thoại hoặc máy tính), mở danh sách thiết bị và chọn \"Folia\". Chỉ cần một lần: sau đó nó tự đăng nhập.",
+      "todo": "Trong ứng dụng Spotify trên cùng mạng (điện thoại hoặc máy tính), mở danh sách thiết bị và chọn \"碎碎念电台\". Chỉ cần một lần: sau đó nó tự đăng nhập.",
       "starting": "Soloist chưa khởi động.",
       "startFailed": "Soloist không khởi động được. Hãy kiểm tra chương trình và khóa, rồi nhấn Kết nối lại."
     },
@@ -5641,7 +5641,7 @@ export default {
   "aiHelp": {
     "openButton": "Cần trợ giúp?",
     "title": "Cần trợ giúp?",
-    "docsTitle": "Xem tài liệu Folia",
+    "docsTitle": "Xem tài liệu 碎碎念电台",
     "openDocs": "Mở tài liệu",
     "discordTitle": "Hỏi cộng đồng Discord",
     "openDiscord": "Tham gia",
@@ -5650,7 +5650,7 @@ export default {
     "copyPrompt": "Sao chép prompt",
     "copyPromptTitle": "1. Sao chép prompt AI",
     "importJsonTitle": "2. Dán kết quả JSON",
-    "prompt": "Tôi đang dùng trình phát nhạc folia-major trên GitHub và gặp sự cố cần hỗ trợ.\n\nHướng dẫn Folia: {{guideUrl}}\nKho mã nguồn Folia: {{repoUrl}}\n\nHãy dùng các tài liệu này làm ngữ cảnh, sau đó giúp tôi hiểu và giải quyết vấn đề được mô tả tiếp theo. Nếu thiếu thông tin, hãy hỏi tôi cần cung cấp thêm gì trước khi đưa ra phỏng đoán không chắc chắn."
+    "prompt": "Tôi đang dùng trình phát nhạc folia-major trên GitHub và gặp sự cố cần hỗ trợ.\n\nHướng dẫn 碎碎念电台: {{guideUrl}}\nKho mã nguồn 碎碎念电台: {{repoUrl}}\n\nHãy dùng các tài liệu này làm ngữ cảnh, sau đó giúp tôi hiểu và giải quyết vấn đề được mô tả tiếp theo. Nếu thiếu thông tin, hãy hỏi tôi cần cung cấp thêm gì trước khi đưa ra phỏng đoán không chắc chắn."
   },
   "ponder": {
     "openPage": "Khám phá trang này",
@@ -5665,7 +5665,7 @@ export default {
     },
     "summaries": {
       "bravais_seam": "Thanh thông tin Bravais: ba nấc độ rộng, thẻ trang chủ & công cụ, lọc và tìm kiếm.",
-      "queue_shuffle": "Folia không có chế độ xáo trộn mà xáo trộn hàng đợi. Bốn cách để thao tác.",
+      "queue_shuffle": "碎碎念电台 không có chế độ xáo trộn mà xáo trộn hàng đợi. Bốn cách để thao tác.",
       "audio_equalizer": "Mười dải tần và chuỗi hiệu ứng — kéo thanh trượt sẽ ghi đè ô tùy chỉnh.",
       "vis_playground": "Ba vùng nhấp chuột ẩn trên màn hình xem trước.",
       "lyric_style": "Cài đặt riêng từng kiểu, ẩn thành phần Monet, phối hình nền và phụ đề chung.",
@@ -6186,7 +6186,7 @@ export default {
         "palette": "Bảng lệnh"
       },
       "grid": {
-        "help": "Lối vào Folia & Trợ giúp",
+        "help": "Lối vào 碎碎念电台 & Trợ giúp",
         "tabs": "Thẻ nguồn nội dung",
         "search": "Tìm kiếm bài hát",
         "map": "Sơ đồ bộ sưu tập",
@@ -6299,7 +6299,7 @@ export default {
       "panelAccountTab": "Bảng điều khiển · Tab tài khoản",
       "latticePage": "Trang Lattice",
       "bravaisWall": "Không gian Bravais",
-      "helpPage": "Tìm hiểu Folia",
+      "helpPage": "Tìm hiểu 碎碎念电台",
       "ponderBasics": "Cách Khám phá hoạt động",
       "foliaTransport": "Phát lại và phím media",
       "foliaShortcuts": "Phím tắt thông dụng",
@@ -6500,7 +6500,7 @@ export default {
         "toolsAppearance": "Dưới cùng là giao diện không gian: độ trong suốt đổi qua ba mức, cùng tông màu poster và bật / tắt đèn. Vuốt nút sang trái để mở trực tiếp bảng lệnh."
       },
       "queueShuffle": {
-        "noMode": "Folia không có chế độ phát ngẫu nhiên truyền thống và nút lặp lại không chuyển sang chế độ này. Để nghe ngẫu nhiên, chỉ cần xáo trộn hàng đợi hiện tại.",
+        "noMode": "碎碎念电台 không có chế độ phát ngẫu nhiên truyền thống và nút lặp lại không chuyển sang chế độ này. Để nghe ngẫu nhiên, chỉ cần xáo trộn hàng đợi hiện tại.",
         "once": "Xáo trộn là thao tác một lần: hàng đợi hiện tại được sắp xếp lại trực tiếp và phát theo thứ tự mới. Xáo trộn lần nữa để đổi thứ tự khác.",
         "command": "Cách nhanh nhất là dùng lệnh: khi đóng cửa sổ lệnh và không trỏ vào ô nhập, nhấn phím hai chấm để vào chế độ thực thi, rồi nhấn r. Bạn cũng có thể tìm \"Xáo trộn hàng đợi\" trong cửa sổ lệnh.",
         "slot": "Nếu hay dùng, chọn \"Xáo trộn hàng đợi\" trong mục \"Nút thanh tiến trình\" ở Cài đặt · Cài đặt chung để thêm nút xáo trộn vào thanh điều khiển.",
@@ -6566,7 +6566,7 @@ export default {
       "customShortcut": {
         "alt": "Phím đầu cố định là Alt và không thể đổi. Phím tắt luôn là tổ hợp Alt + một chữ cái, do đó không thể gán các tổ hợp như Ctrl+Shift+X tại đây.",
         "capture": "Nhấp vào phím thứ hai để bắt đầu nhận phím; chữ cái tiếp theo được nhấn sẽ được gán. Các phím bổ trợ sẽ bị bỏ qua và nhấn Esc để hủy.",
-        "taken": "Chữ cái đã bị trùng sẽ bị từ chối ngay, kèm lý do chữ đỏ bên dưới. Các phím như S và {{mod}}+K thuộc về cửa sổ lệnh và danh sách phím đã dùng sẽ tăng lên khi Folia có thêm phím tắt.",
+        "taken": "Chữ cái đã bị trùng sẽ bị từ chối ngay, kèm lý do chữ đỏ bên dưới. Các phím như S và {{mod}}+K thuộc về cửa sổ lệnh và danh sách phím đã dùng sẽ tăng lên khi 碎碎念电台 có thêm phím tắt.",
         "clear": "Sau khi gán phím, biểu tượng ✕ nhỏ sẽ xuất hiện bên cạnh để xóa liên kết. Phím tắt sẽ không hoạt động cho đến khi bạn gán phím mới.",
         "filtered": "Menu thả xuống bên phải chỉ liệt kê các lệnh dùng được ở mọi nơi vì phím tắt có hiệu lực toàn cục. Các lệnh phụ thuộc trang hoặc bảng điều khiển riêng biệt sẽ không xuất hiện tại đây.",
         "goesQuiet": "Hệ thống cũng kiểm tra lại điều kiện khi bấm phím. Nếu lệnh phát sinh yêu cầu mới hoặc phím bị chiếm dụng, liên kết sẽ tạm vô hiệu — hãy chọn lại lệnh nếu phím tắt không hoạt động."
@@ -6579,14 +6579,14 @@ export default {
         "empty": "Hai cơ chế phục vụ mục đích khác nhau: danh sách dành cho các thao tác tức thời, còn ba nút cố định dành cho các lệnh thường trực."
       },
       "replayGain": {
-        "off": "ReplayGain là thẻ âm lượng ghi trong tệp nhạc. Khi tắt, Folia bỏ qua thẻ này và phát theo mức âm gốc — khiến âm lượng giữa các album có thể chênh lệch lớn.",
+        "off": "ReplayGain là thẻ âm lượng ghi trong tệp nhạc. Khi tắt, 碎碎念电台 bỏ qua thẻ này và phát theo mức âm gốc — khiến âm lượng giữa các album có thể chênh lệch lớn.",
         "trackAlbum": "\"Theo bài\" cân bằng âm lượng giữa các bài khi phát xáo trộn. \"Theo album\" áp dụng một mức cho toàn album, giữ nguyên độ tương phản to nhỏ gốc. Cả hai chỉ đổi âm lượng phát, không mã hóa lại tệp.",
         "sameValue": "Các nút này đồng bộ trực tiếp với tab Nguồn trong bảng điều khiển: đổi ở nơi nào thì nơi còn lại cũng đổi theo.",
         "summary": "Tab Nguồn còn hiển thị thêm thẻ ReplayGain của bài hát (T và A tính bằng dB), hoặc \"không khả dụng\" nếu tệp không có. Nếu bật chế độ mà âm lượng không đổi, nguyên nhân là do tệp thiếu thẻ này."
       },
       "importExport": {
-        "scope": "Mục này chứa toàn bộ thiết lập giao diện Folia: chủ đề màu, hiệu ứng động lời bài hát và thông số dựng hình, phụ đề, phông chữ, hình nền cùng thẻ bài hát.",
-        "notBackup": "Mục này không phải bản sao lưu toàn bộ Folia. Danh sách phát, thư viện nội bộ, cài đặt phát nhạc, phím tắt và tài khoản không nằm trong tệp này.",
+        "scope": "Mục này chứa toàn bộ thiết lập giao diện 碎碎念电台: chủ đề màu, hiệu ứng động lời bài hát và thông số dựng hình, phụ đề, phông chữ, hình nền cùng thẻ bài hát.",
+        "notBackup": "Mục này không phải bản sao lưu toàn bộ 碎碎念电台. Danh sách phát, thư viện nội bộ, cài đặt phát nhạc, phím tắt và tài khoản không nằm trong tệp này.",
         "themeChoice": "Trước khi xuất, hãy chọn chủ đề kèm theo: chủ đề AI, chủ đề tùy chỉnh hoặc không kèm theo. Chọn \"Không có\" vẫn giữ thiết lập thị giác nhưng bỏ qua bảng màu — thích hợp khi chỉ chia sẻ hiệu ứng lời bài hát.",
         "clipboard": "Các nút này dùng để sao chép thay vì lưu tệp: một nút tạo mã ngắn, nút còn lại xuất định dạng JSON. Dán vào tin nhắn hay ghi chú là đã có toàn bộ cấu hình.",
         "paste": "Nhập cấu hình cũng thực hiện tại ô này: dán mã cấu hình vào đây và nút Nhập bên phải sẽ sáng lên.",
@@ -6609,13 +6609,13 @@ export default {
         "hold": "Tiếp tục giữ và thanh quét sẽ lấp đầy từ trái sang phải; khi chạm mốc, bạn sẽ vào hướng dẫn toàn màn hình như màn hình này. Nhả tay sớm sẽ hủy bỏ thao tác.",
         "wholePage": "Không cần tìm từng thành phần: giữ {{mod}} + G ở bất kỳ đâu để xem hướng dẫn cả trang — trang có những gì, vị trí từng mục và các thao tác có thể thực hiện.",
         "touchBulb": "Màn hình cảm ứng không có thao tác rê chuột, nên biểu tượng bóng đèn ở góc trên bên phải sẽ thay thế và chỉ xuất hiện trên thiết bị cảm ứng (dùng chuột sẽ không thấy). Biểu tượng hiện vài giây khi vào trang rồi tự thu gọn; chạm góc trên bên phải để mở lại.",
-        "mediaKeys": "Phát nhạc qua phiên media hệ thống — SMTC trên Windows, MPRIS trên Linux. Phím phát / trước / sau trên bàn phím hoạt động trực tiếp mà không cần chuyển về Folia khi đang dùng cửa sổ khác. Khung media nổi của hệ thống cũng hiển thị bài hát hiện tại.",
+        "mediaKeys": "Phát nhạc qua phiên media hệ thống — SMTC trên Windows, MPRIS trên Linux. Phím phát / trước / sau trên bàn phím hoạt động trực tiếp mà không cần chuyển về 碎碎念电台 khi đang dùng cửa sổ khác. Khung media nổi của hệ thống cũng hiển thị bài hát hiện tại.",
         "inAppTransport": "Trong ứng dụng: Space để phát/tạm dừng, {{mod}} + ← / → để chuyển bài. Trên trang phát nhạc, phím mũi tên tua 5 giây. Mọi thao tác khác nằm trong cửa sổ lệnh, hoặc gõ dấu hai chấm trong chế độ thực thi.",
         "shortcutK": "{{mod}} + K mở cửa sổ lệnh. Mọi tìm kiếm tính năng đều nằm ở đây — lệnh và cài đặt đều có thể tìm theo tên, không cần nhớ cấp bậc menu.",
         "shortcutP": "{{mod}} + P mở hàng đợi phát. Đây cũng là một cửa sổ lệnh: dòng nhập liệu là ô tìm kiếm hàng đợi, hỗ trợ bộ lọc như @artist: trước khi thao tác hàng loạt.",
         "shortcutB": "{{mod}} + B mở Lattice, hiển thị toàn bộ hàng đợi phát dưới dạng lưới poster. Nhấn lại khi đang ở Lattice để quay về.",
         "shortcutG": "{{mod}} + G là thao tác bạn vừa thực hiện: mở hướng dẫn cho trang hiện tại. Bất cứ khi nào bỡ ngỡ, hãy nhấn tổ hợp phím này.",
-        "hintSettings": "Đã quen thuộc với Folia? Bạn có thể tắt gợi ý Khám phá trong cài đặt hoặc chỉ giữ ở các mục chưa xem — tùy chọn nằm ở Cài đặt · Chung, \"Gợi ý hướng dẫn Khám phá\", gồm ba chế độ: luôn hiển thị, chỉ nơi chưa xem và tắt. Nút bên dưới đưa bạn đến thẳng cài đặt.",
+        "hintSettings": "Đã quen thuộc với 碎碎念电台? Bạn có thể tắt gợi ý Khám phá trong cài đặt hoặc chỉ giữ ở các mục chưa xem — tùy chọn nằm ở Cài đặt · Chung, \"Gợi ý hướng dẫn Khám phá\", gồm ba chế độ: luôn hiển thị, chỉ nơi chưa xem và tắt. Nút bên dưới đưa bạn đến thẳng cài đặt.",
         "docs": "Bốn chương này chỉ là phần mở đầu. Lệnh, phím tắt, nguồn trực tuyến, thư viện nội bộ, hiệu ứng thị giác và giao diện đều có bài hướng dẫn đầy đủ trên trang tài liệu — nút bên dưới mở trang này."
       },
       "pages": {
@@ -6656,7 +6656,7 @@ export default {
         "playerCommandArgument": "Lệnh cần tham số sẽ không chạy ngay. Gõ tên lệnh, nhấn dấu cách để thu thành một thẻ nhỏ trên dòng nhập liệu với con trỏ đợi phía sau. Nhập tham số rồi nhấn Enter.",
         "playerExecuteCloseFirst": "Chế độ thực thi chỉ kích hoạt khi cửa sổ lệnh đã đóng. Nhấn Esc để đóng trước: khi cửa sổ đang mở, dấu hai chấm chỉ được nhập vào dòng lệnh.",
         "playerExecuteMode": "Quay lại trang phát, khi tiêu điểm ngoài ô nhập liệu, nhấn dấu hai chấm: cửa sổ lệnh mở thẳng vào chế độ thực thi. Tại đây, mỗi phím chạy một lệnh: r xáo trộn hàng đợi, v âm lượng, o cài đặt, h trợ giúp.",
-        "playerShuffleNoSwitch": "Folia không có công tắc xáo trộn. Bạn sẽ không thấy trên thanh điều khiển vì xáo trộn không phải chế độ duy trì — đó là một tác vụ tức thời: xáo lại hàng đợi hiện tại ngay tại chỗ.",
+        "playerShuffleNoSwitch": "碎碎念电台 không có công tắc xáo trộn. Bạn sẽ không thấy trên thanh điều khiển vì xáo trộn không phải chế độ duy trì — đó là một tác vụ tức thời: xáo lại hàng đợi hiện tại ngay tại chỗ.",
         "playerShuffleHow": "Cách nhanh nhất là không cần mở gì: nhấn phím hai chấm trên trang phát — cửa sổ mở ở chế độ thực thi — rồi nhấn r. Thứ tự mới sẽ được áp dụng; nhấn lại để xáo lần nữa.",
         "playerShuffleSlot": "Nếu dùng thường xuyên, hãy gán “Xáo trộn hàng đợi” vào một trong hai ô bên phải thanh điều khiển để thao tác với một lần nhấn.",
         "lattice": "Lattice trải hàng đợi phát thành một trường poster. Di chuyển trên trường để duyệt hàng đợi và chọn poster để thao tác với bài hát đó.",
@@ -6670,15 +6670,15 @@ export default {
         "latticeLights": "Tắt đèn sẽ làm mờ không gian hiển thị nhưng vẫn giữ cấu trúc. Đây chỉ là cài đặt hiển thị: phát nhạc và thứ tự hàng đợi không thay đổi.",
         "latticePosterKeys": "Enter hoặc Space mở rộng poster đang đóng. Khi mở, Enter phát/tạm dừng, Space bật/tắt điều khiển, còn Escape thu gọn và xóa tiêu điểm trước.",
         "latticePageKeys": ": + C định vị bài đang phát, {{mod}} + P mở hàng đợi, {{mod}} + B quay lại, {{mod}} + K mở cửa sổ lệnh; phím mũi tên di chuyển chọn poster.",
-        "help": "Folia tách riêng duyệt nhạc, phát nhạc, lệnh và tùy chọn. {{mod}}+G giải thích trang hiện tại; hướng dẫn từng thành phần sẽ hiển thị riêng khi có hành vi đặc biệt.",
+        "help": "碎碎念电台 tách riêng duyệt nhạc, phát nhạc, lệnh và tùy chọn. {{mod}}+G giải thích trang hiện tại; hướng dẫn từng thành phần sẽ hiển thị riêng khi có hành vi đặc biệt.",
         "helpCommands": "{{mod}} + K tìm kiếm mọi lệnh và cài đặt. Với tùy chọn ẩn sâu, tìm tên thường nhanh hơn nhớ vị trí tầng menu.",
         "helpOperatingModel": "Chọn nhạc ở dạng lưới, sau đó phát độc lập trong Player hoặc Lattice. Thanh đáy điều khiển phát ở mọi nơi; Trợ giúp và Tùy chọn phủ lên trang hiện tại.",
         "settings": "Cột trái nhóm tùy chọn theo giao diện, hiển thị, phát lại, tương tác, tích hợp, lưu trữ, desktop, đồ họa, mod và thử nghiệm. Cột phải chứa các cài đặt thuộc nhóm đã chọn.",
-        "settingsDirectNavigation": "Hiếm khi cần duyệt từng mục: tìm tên cài đặt trong bảng lệnh và Folia sẽ mở đúng nhóm cùng vị trí neo."
+        "settingsDirectNavigation": "Hiếm khi cần duyệt từng mục: tìm tên cài đặt trong bảng lệnh và 碎碎念电台 sẽ mở đúng nhóm cùng vị trí neo."
       },
       "playerBar": {
         "basicsAutoExpand": "Không chỉ rê chuột mới mở thanh. Khi tạm dừng và không ở màn hình chính, thanh điều khiển (Capsule) sẽ tự mở rộng — đúng lúc cần điều khiển nhất thì thanh ngừng ẩn. Phát tiếp hoặc quay về trang chủ, thanh sẽ thu gọn lại.",
-        "basicsIntro": "Cụm điều khiển của Folia gói gọn trong thanh điều khiển (Capsule) này. Hàng nút cố định ở đáy như trình phát khác — bài trước, bài sau, xáo trộn, lặp lại, âm lượng — hoàn toàn không có chỗ cố định tại đây.",
+        "basicsIntro": "Cụm điều khiển của 碎碎念电台 gói gọn trong thanh điều khiển (Capsule) này. Hàng nút cố định ở đáy như trình phát khác — bài trước, bài sau, xáo trộn, lặp lại, âm lượng — hoàn toàn không có chỗ cố định tại đây.",
         "basicsPlay": "Nút duy nhất luôn xuất hiện là phát / tạm dừng. Ở cửa sổ rộng, nút nằm ngoài cùng bên trái; khi chiều rộng không đủ một dòng, nút chuyển vào giữa dòng thứ hai với hai ô ở hai bên.",
         "basicsTitle": "Chuyển bài qua tiêu đề chứ không bằng nút bấm. Rê chuột vào tiêu đề sẽ hiện mũi tên hai bên xem trước bài trước và bài sau — bạn chọn bài bằng cách đọc tên chứ không bấm mò.",
         "basicsProgress": "Kéo hoặc nhấp thanh tiến trình để tua. Nhấp vào chỗ khác trên thanh điều khiển (Capsule) không làm tạm dừng: thông thường nó mở trang phát, hoặc Lattice nếu nơi mở khi phát được đặt là Lattice; khi bạn đã ở trang phát và cú nhấp đó không dẫn tới Lattice, nó mở cửa sổ lệnh; còn trong Lattice sẽ đưa góc nhìn về bài đang phát.",
@@ -6689,7 +6689,7 @@ export default {
         "heightDrag": "Khi đã bật chỉnh vị trí, nhấn giữ bất kỳ đâu trên thanh rồi kéo lên hoặc xuống. Thả tay để áp dụng và vị trí sẽ được ghi nhớ.",
         "slotsIntro": "Hai nút bên phải thanh tiến trình không cố định, và mỗi ô tùy chọn hoàn toàn độc lập.",
         "shuffleIntro": "Tính năng xáo trộn này khác với nơi khác — đây không phải chế độ duy trì liên tục.",
-        "shuffleOnce": "Nhấn một lần, Folia sẽ xáo trộn hàng đợi hiện tại ngay tại chỗ; thứ tự mới sẽ được giữ nguyên. Muốn xáo trộn tiếp? Nhấn lại lần nữa.",
+        "shuffleOnce": "Nhấn một lần, 碎碎念电台 sẽ xáo trộn hàng đợi hiện tại ngay tại chỗ; thứ tự mới sẽ được giữ nguyên. Muốn xáo trộn tiếp? Nhấn lại lần nữa.",
         "volumeIntro": "Thanh điều khiển đáy không có thanh trượt âm lượng cố định.",
         "volumeOpens": "Nhấn vào đây sẽ mở bảng âm lượng trong bảng lệnh, thay vì hiện thanh trượt nhỏ tại chỗ.",
         "slotsHold": "Nhấn giữ một nút cho đến khi vòng quanh nó đầy, hoặc nhấp chuột phải.",
@@ -6762,7 +6762,7 @@ export default {
         "sourceLyrics": "Hai biểu tượng nhỏ bên phải hàng lời bài hát: một để nhập hoặc xuất tệp lời (lrc / vtt / ttml / qrc / yrc / krc / txt / fia), một để khớp trực tuyến. Thanh bên dưới cho biết phiên bản đang dùng; sau khi nhập, một ô thứ hai sẽ xuất hiện để chuyển đổi lại.",
         "sourceOffset": "“Lệch mốc thời gian” ở dưới cùng điều chỉnh theo bước 250ms hoặc nhập số; giá trị dương làm lời bài hát xuất hiện trễ hơn. Cài đặt này chỉ áp dụng tạm thời cho lần phát này — muốn áp dụng lâu dài, hãy dùng độ lệch toàn cục trong cài đặt, hai giá trị này sẽ cộng dồn với nhau.",
         "sourceLyricsFile": "Biểu tượng bên trái ở hàng lời bài hát là nhập / xuất: cả hai nằm chung trong một cửa sổ, bạn có thể chọn sau khi mở.",
-        "sourceExportFormats": "Phần trên cửa sổ để nhập: lrc, vtt, ttml, qrc, yrc, krc, txt và tệp .fia xuất từ Folia. Bài hát từ Navidrome không thể nhập, nên cửa sổ chỉ hiển thị xuất. Hai ô bên dưới để lưu bài hát này: .fia giữ lại mốc thời gian từng từ, bản dịch, bè và phân đoạn đã lưu để nhập lại nguyên vẹn; .lrc là LRC nâng cao các trình phát khác đọc được, nhưng các chi tiết riêng của Folia sẽ bị bỏ qua.",
+        "sourceExportFormats": "Phần trên cửa sổ để nhập: lrc, vtt, ttml, qrc, yrc, krc, txt và tệp .fia xuất từ 碎碎念电台. Bài hát từ Navidrome không thể nhập, nên cửa sổ chỉ hiển thị xuất. Hai ô bên dưới để lưu bài hát này: .fia giữ lại mốc thời gian từng từ, bản dịch, bè và phân đoạn đã lưu để nhập lại nguyên vẹn; .lrc là LRC nâng cao các trình phát khác đọc được, nhưng các chi tiết riêng của 碎碎念电台 sẽ bị bỏ qua.",
         "sourceExportBatch": "Hàng dưới cùng là xuất hàng loạt: mở trang xuất trong bảng lệnh và lưu tất cả lời bài hát được lưu vào bộ nhớ đệm trên thiết bị này cùng lúc. Hàng lời bài hát trong Cài đặt · Lưu trữ cũng có lối vào tương tự.",
         "coverTab": "Thẻ ảnh bìa chứa thông tin bài hát hiện tại: tên bài, nghệ sĩ và album, được căn giữa theo cột. Ảnh bìa lớn không thuộc thẻ này — nó luôn cố định ở đầu bảng điều khiển.",
         "coverTabDetail": "Tên nghệ sĩ và album đều là liên kết đến bộ sưu tập tương ứng. Nhấp vào tên bài để sao chép “tên bài - nghệ sĩ - album” cùng liên kết nguồn; nhấn {{mod}} và nhấp để mở trang của bài hát trên nền tảng nguồn.",
@@ -6780,7 +6780,7 @@ export default {
         "notice": "Thường do bộ nhớ đệm phương tiện cho automix đang tắt. Dải màu hổ phách này thông báo điều đó, và liên kết gạch chân bên trong cho phép bật đệm ngay tại đây mà không cần vào cài đặt bộ nhớ."
       },
       "libraryWatch": {
-        "enable": "Khi bật, Folia sẽ theo dõi các thư mục nội bộ đã nhập và quét gia tăng mỗi khi có thay đổi tệp — không cần quét lại thủ công mỗi lần thêm nhạc.",
+        "enable": "Khi bật, 碎碎念电台 sẽ theo dõi các thư mục nội bộ đã nhập và quét gia tăng mỗi khi có thay đổi tệp — không cần quét lại thủ công mỗi lần thêm nhạc.",
         "roots": "Danh sách chỉ mở ra phía dưới công tắc, mỗi dòng là một thư mục gốc được theo dõi, dòng chữ nhỏ bên dưới là đường dẫn thực tế.",
         "warning": "Xem biểu tượng bên trái mỗi dòng: hình mắt biểu thị đang theo dõi; tam giác màu hổ phách cảnh báo việc theo dõi đã dừng — do đổi đường dẫn hoặc quyền truy cập. Sau đó việc quét sẽ dừng lại, và biểu tượng này là dấu hiệu duy nhất.",
         "recheck": "Khi thấy biểu tượng tam giác, nhấn “kiểm tra lại” ở bên phải; thao tác này sẽ gắn kết lại mọi thư mục đã nhập. Dòng chữ nhỏ bên cạnh là thời điểm quét tự động gần nhất."
@@ -6790,7 +6790,7 @@ export default {
         "next": "Chuyển sang “sau bài hát hiện tại” để chèn ngay sau bài đang phát và phát kế tiếp. Thiết lập này áp dụng cho mọi lối vào thêm vào hàng đợi — nút trên thẻ, hàng đợi hoặc lệnh trong bảng lệnh."
       },
       "lyricsSource": {
-        "autoBest": "Khi bật “tự động chọn nguồn tốt nhất”, Folia sẽ tìm bài hát trên NetEase, AMLLDB, QQ và KuGou rồi lấy bản khớp từng từ chuẩn xác nhất. Điểm trừ là tính năng này sẽ ghi đè nguồn đã chọn thủ công ở tab nguồn — nếu lựa chọn thủ công không giữ nguyên, thường là vì lý do này.",
+        "autoBest": "Khi bật “tự động chọn nguồn tốt nhất”, 碎碎念电台 sẽ tìm bài hát trên NetEase, AMLLDB, QQ và KuGou rồi lấy bản khớp từng từ chuẩn xác nhất. Điểm trừ là tính năng này sẽ ghi đè nguồn đã chọn thủ công ở tab nguồn — nếu lựa chọn thủ công không giữ nguyên, thường là vì lý do này.",
         "priority": "Hai thẻ bên dưới quyết định ưu tiên lời bài hát nội bộ hay trực tuyến. Khi tệp nội bộ có sẵn lời và cũng tìm thấy lời trực tuyến, cài đặt này sẽ phân xử.",
         "globalOffset": "“Độ lệch dòng thời gian toàn cục” mở thước đo toàn màn hình để dịch chuyển lời bài hát sớm hoặc muộn hơn — thường dùng để bù độ trễ cố định của card âm thanh hoặc Bluetooth.",
         "offsetSum": "Trùng tên với độ lệch ±250ms ở tab nguồn nhưng không giống nhau: độ lệch đó chỉ áp dụng cho bài hát hiện tại và mất khi chuyển bài, còn độ lệch này có hiệu lực toàn cục và lâu dài. Cả hai giá trị cộng dồn, nên khi một bài bị lệch nhiều, hãy kiểm tra cả hai."
@@ -6802,7 +6802,7 @@ export default {
       "lyricExport": {
         "whatItIs": "Trang này đóng gói các lời bài hát đã có trên thiết bị thành tệp zip. Không tải về lời bài hát mới.",
         "effective": "Bộ nhớ đệm trực tuyến gồm các bài hát trực tuyến đã phát, được xuất đúng như hiển thị khi phát, nên lời bài hát tự nhập hoặc khớp thủ công sẽ được ưu tiên. Thư viện nội bộ chỉ xuất lời bài hát khớp trực tuyến: mỗi tệp đặt tên theo tệp âm thanh tương ứng và nằm trong thư mục local của zip theo đúng cấu trúc cây thư mục, nên khi giải nén vào thư mục chứa thư viện, mỗi tệp sẽ nằm cạnh bài hát đó. Bản nhạc không lời và bài không có lời sẽ bị bỏ qua và liệt kê trong manifest.json.",
-        "formats": ".fia là định dạng không tổn hao và có thể nhập thẳng lại vào Folia; LRC dùng được ở mọi nơi nhưng lược bỏ giọng nền và phân đoạn từ. Đánh dấu cả hai thì tệp zip sẽ chứa hai thư mục.",
+        "formats": ".fia là định dạng không tổn hao và có thể nhập thẳng lại vào 碎碎念电台; LRC dùng được ở mọi nơi nhưng lược bỏ giọng nền và phân đoạn từ. Đánh dấu cả hai thì tệp zip sẽ chứa hai thư mục.",
         "names": "Bộ nhớ đệm lời bài hát trực tuyến vốn không chứa tên bài hát. Bài phát sẽ tự ghi lại tên khi phát, đây là nguồn ưu tiên; sau đó, tên lấy từ danh sách phát và hàng đợi lưu đệm trên máy, và cuối cùng mới truy vấn dịch vụ nhạc trực tuyến rồi ghi nhớ cho lần sau. Khi tắt tra cứu, bài hát không rõ tên sẽ đặt tên theo ID.",
         "running": "Sau khi bắt đầu, tiến trình hiển thị tại đây và nút chuyển thành Hủy. Đóng bảng lệnh cũng sẽ hủy: quá trình xuất không tiếp tục chạy ngầm."
       },
@@ -6818,7 +6818,7 @@ export default {
         "windowNormal": "Khác biệt lớn nhất giữa bản desktop và trình duyệt là ba tính năng này, và không tính năng nào nằm bên trong ứng dụng: một tính năng đổi vị trí cửa sổ trên desktop, một nằm ở khay hệ thống, và một là cửa sổ thứ hai. Bắt đầu từ cửa sổ chính thông thường này.",
         "wallpaper": "Chế độ hình nền hạ cửa sổ xuống đáy desktop: ẩn viền và thanh tiêu đề, lời bài hát trải thẳng lên desktop, biểu tượng và các cửa sổ khác vẫn phủ lên trên bình thường. Điểm đánh đổi là: bàn phím không còn tác động được ở chế độ này.",
         "wallpaperExit": "Điều này đồng nghĩa không thể thoát chế độ hình nền bằng cách nhấp vào cửa sổ. Hãy dùng “Chế độ hình nền” trong menu khay hệ thống, hoặc tìm lệnh tương ứng trong cửa sổ lệnh.",
-        "trayIcon": "Biểu tượng ở góc thanh tác vụ là biểu tượng khay của Folia. Cài đặt · Desktop có thể đặt thu nhỏ thẳng về khay hệ thống — cửa sổ chính rời thanh tác vụ, nhưng phát nhạc không dừng và phím phương tiện hệ thống vẫn hoạt động.",
+        "trayIcon": "Biểu tượng ở góc thanh tác vụ là biểu tượng khay của 碎碎念电台. Cài đặt · Desktop có thể đặt thu nhỏ thẳng về khay hệ thống — cửa sổ chính rời thanh tác vụ, nhưng phát nhạc không dừng và phím phương tiện hệ thống vẫn hoạt động.",
         "trayMenu": "Nhấp vào biểu tượng khay sẽ mở cột này: mọi thao tác đều làm được mà không cần mở cửa sổ chính — hiện/ẩn cửa sổ, mở cửa sổ điều khiển, nền trong suốt, nhấp xuyên thấu, luôn trên cùng, ẩn biểu tượng thanh tác vụ, lời bài hát Desktop, chế độ hình nền, đặt lại cửa sổ, thoát. Ở chế độ hình nền, đây là cách duy nhất để thoát.",
         "remote": "Cửa sổ điều khiển là cửa sổ phụ nhỏ; tìm “cửa sổ điều khiển” trong cửa sổ lệnh để mở, hoặc dùng menu khay hệ thống. Cửa sổ này luôn hiển thị trên cùng ngay cả khi cửa sổ chính thu nhỏ hoặc chìm vào hình nền.",
         "remoteChrome": "Cửa sổ này có bộ công tắc riêng: luôn trên cùng, nền trong suốt, nhấp xuyên thấu (chuột xuyên thẳng xuống bên dưới), ẩn biểu tượng thanh tác vụ và tự ẩn giao diện. Việc là một cửa sổ tách rời thay vì một góc của cửa sổ chính giúp các thiết lập này hoàn toàn độc lập."
@@ -6845,8 +6845,8 @@ export default {
       },
       "localGridControls": {
         "sources": "Hàng này chuyển đổi thư viện nội bộ giữa thư mục, album, nghệ sĩ và danh sách phát nội bộ. Nó đổi nội dung trên thanh Grid3D, không chuyển sang nguồn trực tuyến.",
-        "foldersAndPlaylists": "Thư mục giữ nguyên cấu trúc khi nhập. Danh sách phát nội bộ do Folia lưu trữ, độc lập với danh sách phát trực tuyến và Navidrome.",
-        "imports": "Nhập thư mục thêm nhạc từ một đường dẫn. Nhập danh sách phát đọc tệp M3U hoặc M3U8 và tạo danh sách phát nội bộ từ các bản nhạc Folia nhận diện được.",
+        "foldersAndPlaylists": "Thư mục giữ nguyên cấu trúc khi nhập. Danh sách phát nội bộ do 碎碎念电台 lưu trữ, độc lập với danh sách phát trực tuyến và Navidrome.",
+        "imports": "Nhập thư mục thêm nhạc từ một đường dẫn. Nhập danh sách phát đọc tệp M3U hoặc M3U8 và tạo danh sách phát nội bộ từ các bản nhạc 碎碎念电台 nhận diện được.",
         "refresh": "Làm mới sẽ quét lại các thư mục gốc đã nhập để tìm tệp mới, thay đổi hoặc bị thiếu. Thao tác không tạo thêm bản sao thư viện."
       },
       "onlineCollectionActions": {

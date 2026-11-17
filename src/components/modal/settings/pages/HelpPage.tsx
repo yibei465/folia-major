@@ -1,16 +1,10 @@
 import React from 'react';
-import { ChevronRight, CircleHelp, ExternalLink, Lightbulb, MessageCircle, Sparkles, Users, type LucideIcon } from 'lucide-react';
+import { ChevronRight, CircleHelp, Lightbulb, Sparkles, type LucideIcon } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { openPonderNavigation } from '../../../../services/ponder/pagePonderTarget';
-import { BUILD_KIND_TAGS, getBuildKind } from '../../../../utils/buildProvenance';
 import { PRIMARY_MODIFIER_LABEL } from '../../../../utils/platform';
-import { openDiscordInvite } from '../../../shared/discordCommunity';
-import { QQ_COMMUNITY_GROUP_NUMBER } from '../../../shared/qqCommunity';
 import { HELP_TAB_PLAYER_CONTROLS, HELP_TAB_PRIMARY_SHORTCUTS } from '../../userGuideContent';
-import { Button, CopyButton, CopyValue, Group, Keys, Row, type SettingsGroupDef } from '../kit';
-import { openOutsideLink } from '../../../../utils/system/outsideLink';
-import { FoundUpdateRow } from './FoundUpdateRow';
-import { ChinaDrivesRow } from './ChinaDrivesRow';
+import { Group, Keys, Row, type SettingsGroupDef } from '../kit';
 import { iconLabel } from './iconLabel';
 
 // src/components/modal/settings/pages/HelpPage.tsx
@@ -21,20 +15,9 @@ import { iconLabel } from './iconLabel';
 // is not in pages/index.ts and the search does not list it; the settings window mounts it itself
 // and hands it the two dialogs it opens.
 
-const REPOSITORY_URL = 'https://github.com/chthollyphile/folia-major';
-const REPOSITORY_NAME = 'chthollyphile/folia-major';
-const BUILD_KIND = getBuildKind();
-const VERSION_INFO = (__DOCKER_STACK_VERSION__
-    ? `${__APP_VERSION_LABEL__} v${__APP_VERSION__} · Stack ${__DOCKER_STACK_VERSION__} · ${__COMMIT_HASH__}`
-    : `${__APP_VERSION_LABEL__} v${__APP_VERSION__} - ${__GIT_BRANCH__} - ${__COMMIT_HASH__}`)
-    // Self-hosted and unofficial builds always carry a tag, in English, so a line pasted into an
-    // issue says where the build came from.
-    + (BUILD_KIND === 'official' ? '' : ` · ${BUILD_KIND_TAGS[BUILD_KIND]}`);
-
 const SHORTCUTS: SettingsGroupDef = { id: 'helpShortcuts', titleKey: 'help.keyboardShortcuts' };
 const PLAYER_KEYS: SettingsGroupDef = { id: 'helpPlayerControls', titleKey: 'help.playerControls' };
 const SUPPORT: SettingsGroupDef = { id: 'helpSupport', titleKey: 'aiHelp.title' };
-const ABOUT: SettingsGroupDef = { id: 'helpAbout', titleKey: 'help.version' };
 
 /** Two columns that become one where a column would be narrower than 280px. */
 const COLUMNS_CLASS = 'grid grid-cols-[repeat(auto-fit,minmax(min(100%,280px),1fr))] gap-x-3';
@@ -145,37 +128,6 @@ const HelpPage: React.FC<HelpPageProps> = ({ onOpenReleaseNotes, onOpenAiHelp, o
 
             <Group def={SUPPORT} bare>
                 <Row label={iconLabel(CircleHelp, t('aiHelp.openButton'))} onClick={onOpenAiHelp} />
-                <Row label={iconLabel(MessageCircle, t('help.joinDiscord'))} onClick={openDiscordInvite} />
-                {/* A QQ group has no link that opens it: the row gives its number to copy. */}
-                <Row label={iconLabel(Users, t('help.communityQq'))}>
-                    <CopyValue value={QQ_COMMUNITY_GROUP_NUMBER} />
-                </Row>
-            </Group>
-
-            <Group def={ABOUT} bare>
-                <Row label={t('help.version')}>
-                    {/* One piece of the row: a version too long for its line breaks inside itself and keeps the button beside it. */}
-                    <span className="flex min-w-0 items-center gap-2">
-                        <span className="min-w-0 select-text text-right font-mono text-xs text-[color:var(--st-t2)] [overflow-wrap:anywhere]">{VERSION_INFO}</span>
-                        <CopyButton text={VERSION_INFO} />
-                    </span>
-                </Row>
-                {BUILD_KIND !== 'official' && (
-                    <Row sub notice={t(BUILD_KIND === 'unofficial' ? 'options.unofficialBuildNotice' : 'options.selfHostedBuildNotice')} />
-                )}
-                <FoundUpdateRow sub />
-                <ChinaDrivesRow sub quiet />
-                <Row
-                    label={(
-                        // The settings window counts the clicks and shows the cat at the seventh.
-                        <button type="button" onClick={onProjectLabelClick} className="cursor-default">{t('help.madeBy')}</button>
-                    )}
-                >
-                    <Button variant="quiet" onClick={() => openOutsideLink(REPOSITORY_URL)}>
-                        {REPOSITORY_NAME}
-                        <ExternalLink size={12} />
-                    </Button>
-                </Row>
             </Group>
         </>
     );

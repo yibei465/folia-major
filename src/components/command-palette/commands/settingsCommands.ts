@@ -205,7 +205,7 @@ export const settingsCommands: CommandPaletteCommand[] = [
         id: 'transition-mode-crossfade',
         isAvailable: context => (context ? context.settings.transitionMode !== 'crossfade' : true),
         group: 'settings',
-        title: 'Transition mode: Folia Crossfade',
+        title: 'Transition mode: 碎碎念电台 Crossfade',
         description: 'Use the simple one-out one-in crossfade',
         keywords: ['crossfade', 'folia crossfade', 'transition mode crossfade', '交叉淡化', '过渡模式交叉淡化', 'gdmscf'],
         execute: (_input, context) => {
@@ -218,7 +218,7 @@ export const settingsCommands: CommandPaletteCommand[] = [
         id: 'transition-mode-automix',
         isAvailable: context => (context ? context.settings.transitionMode !== 'automix' : true),
         group: 'settings',
-        title: 'Transition mode: Folia Automix',
+        title: 'Transition mode: 碎碎念电台 Automix',
         description: 'Analyse both tracks and mix them automatically',
         keywords: ['automix', 'folia automix', 'transition mode automix', '自动混音', '过渡模式自动混音', 'gdmsauto'],
         execute: (_input, context) => {
@@ -394,7 +394,7 @@ export const settingsCommands: CommandPaletteCommand[] = [
         'desktop-toggle-background-throttling',
         'settings',
         'Background throttling',
-        'Toggle throttling rendering and holding the lyric animation while Folia is minimised or hidden',
+        'Toggle throttling rendering and holding the lyric animation while 碎碎念电台 is minimised or hidden',
         ['throttle when hidden', 'pause lyrics when minimized', 'stop animation in background', 'power saving', '后台节流', '后台暂停歌词', '最小化停止动画', '省电'],
         context => context.settings.toggleBackgroundThrottling(),
         { platform: ['electron'] },

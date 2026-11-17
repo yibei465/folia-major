@@ -305,17 +305,23 @@ export default async function viteConfig(_config: ConfigEnv): Promise<UserConfig
           navigateFallbackDenylist: [/^\/api(?:\/|$)/, /^\/__folia_cover\//]
         },
         manifest: {
-          name: 'Folia Music',
-          short_name: 'Folia',
-          description: 'A beautiful AI-themed music player',
+          name: '碎碎念电台',
+          short_name: '碎碎念电台',
+          description: '以北的自托管音乐站，主打全屏歌词动画',
           theme_color: '#09090b',
           background_color: '#09090b',
           display: 'standalone',
           icons: [
             {
-              src: 'icon.svg',
+              src: 'icon-192.png',
+              sizes: '192x192',
+              type: 'image/png',
+              purpose: 'any'
+            },
+            {
+              src: 'icon-512.png',
               sizes: '512x512',
-              type: 'image/svg+xml',
+              type: 'image/png',
               purpose: 'any maskable'
             }
           ]
